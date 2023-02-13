@@ -1,5 +1,3 @@
-# Create a new dataframe df_pi with three columns Year, Country and Percentage Increase
-# Add a new row to df_pi with the following values: 1994, PT, 0.0
 # Import the necessary libraries
 # Read the following dataset into a pandas dataframe: 'source/tourist_arrivals_countries.csv' and parse the Date field as a date
 # Remove missing rows from the data
