@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .error {
+        color: red;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.17.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "layer": [{"data": {"name": "data-9f336c8631f2d8b1932bd3b8c69ff057"}, "mark": "bar", "encoding": {"color": {"condition": {"value": "#003049", "test": "(datum['Percentage Improvement'] > 50)"}, "value": "lightgray"}, "x": {"field": "Training Type", "sort": "-y", "type": "nominal"}, "y": {"field": "Percentage Improvement", "scale": {"domain": [0, 100]}, "type": "quantitative"}}, "width": 300}, {"data": {"name": "data-e4a17ff3367223c6cbe8c433cc4fe380"}, "mark": {"type": "rule", "color": "red"}, "encoding": {"y": {"field": "y", "type": "quantitative"}}}], "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json", "datasets": {"data-9f336c8631f2d8b1932bd3b8c69ff057": [{"Training Type": "Sprinting", "Record Time (Seconds)": 9.58, "Our Best Time": 15.07, "Percentage Improvement": 42.69311064718163}, {"Training Type": "Long-distance running", "Record Time (Seconds)": 7299.0, "Our Best Time": 13261.76, "Percentage Improvement": 18.307165365118507}, {"Training Type": "Swimming", "Record Time (Seconds)": 46.91, "Our Best Time": 88.01, "Percentage Improvement": 12.385418887230841}, {"Training Type": "Cycling", "Record Time (Seconds)": 1963.49, "Our Best Time": 2795.22, "Percentage Improvement": 57.64022225730716}, {"Training Type": "Rowing", "Record Time (Seconds)": 335.8, "Our Best Time": 462.33, "Percentage Improvement": 62.31983323406791}], "data-e4a17ff3367223c6cbe8c433cc4fe380": [{"y": 50}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div class="error" style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
