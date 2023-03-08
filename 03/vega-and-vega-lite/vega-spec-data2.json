@@ -1,0 +1,62 @@
+{
+    "$schema": "https://vega.github.io/schema/vega/v5.json",
+    "description": "A basic line chart",
+    "width": 400,
+    "height": 200,
+    "padding": 5,
+  
+    "data": [
+      {
+        "name": "data",
+        "url": "https://raw.githubusercontent.com/alod83/Data-Storytelling-with-Python-Altair-and-GitHub-Copilot/main/03/vega-and-vega-lite/data2.csv", "format": {"type": "csv"}
+      }
+    ],
+  
+  
+  
+    "scales": [
+      {
+        "name": "xscale",
+        "domain": {"data": "data", "field": "X"},
+        "range": "width"
+      },
+      {
+        "name": "yscale",
+        "domain": {"data": "data", "field": "Y"},
+        "range": "height"
+      }
+    ],
+  
+    "axes": [
+      { "orient": "bottom", "scale": "xscale" },
+      { "orient": "left", "scale": "yscale" }
+    ],
+  
+    "marks": [
+      {
+        "type": "line",
+        "from": {"data":"data"},
+        "encode": {
+          "enter": {
+            "x": {"scale": "xscale", "field": "X"},
+            "y": {"scale": "yscale", "field": "Y"},
+            "stroke": { "value": "#003049"}
+            
+          }
+        }
+      },
+      {
+        "type": "symbol",
+        "from": {"data":"data"},
+        "encode": {
+          "enter": {
+            "x": {"scale": "xscale", "field": "X"},
+            "y": {"scale": "yscale", "field": "Y"},
+            "shape": {"value": "circle"},
+            "size" : {"value": 100},
+            "fill": { "value": "#003049"}
+          }
+        }
+      }
+    ]
+  }  
