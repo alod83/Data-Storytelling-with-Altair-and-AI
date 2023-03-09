@@ -1,0 +1,36 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A basic line chart",
+    "width": 400,
+    "height": 200,
+    "padding": 5,
+  
+    "data": {
+      "url": "https://raw.githubusercontent.com/alod83/Data-Storytelling-with-Python-Altair-and-GitHub-Copilot/main/03/data/data.csv", 
+      "format": {"type": "csv"}
+    },
+  
+    "encoding": {
+      "x": {"field": "X", "type": "quantitative"},
+      "y": {"field": "Y", "type": "quantitative"}
+    },
+  
+    "layer": [
+      {
+        "mark": {"type": "line", "color": "#F67E00"}
+      },
+      {
+        "mark": {"type": "point", "shape": "circle", "size": 100, "color": "#F67E00"}
+      }
+    ],
+  
+    "config": {
+      "axis": {
+        "gridColor": "#DEDDDD",
+        "domainColor": "#DEDDDD",
+        "labelColor": "#6B6B6B",
+        "tickColor": "#6B6B6B"
+      }
+    }
+  }
+  
