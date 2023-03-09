@@ -22,15 +22,8 @@
       {
         "mark": {"type": "point", "shape": "circle", "size": 100, "color": "#F67E00"}
       }
-    ],
+    ]
   
-    "config": {
-      "axis": {
-        "gridColor": "#DEDDDD",
-        "domainColor": "#DEDDDD",
-        "labelColor": "#6B6B6B",
-        "tickColor": "#6B6B6B"
-      }
-    }
+    
   }
   
