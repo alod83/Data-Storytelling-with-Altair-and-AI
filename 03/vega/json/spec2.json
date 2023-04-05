@@ -56,7 +56,7 @@
             "y2": {"scale": "yscale", "value": 0}
           },
           "update": {
-            "fill": { "signal": "changeColor === datum ? '#636466' : '#80C11E'" }
+            "fill": { "signal": "changeColor === datum ? '#80C11E' : '#636466'" }
           }
         }
       }
