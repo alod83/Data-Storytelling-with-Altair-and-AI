@@ -33,8 +33,8 @@ chart = alt.Chart(df).mark_bar().encode(
 ).properties(
     width=300,
     # Add the following properties to the chart:
-    # * title to 'Invest in Rowling and Cycling'
-    title='Invest in Rowling and Cycling'
+    # * title to 'Invest in Rowing and Cycling'
+    title='Invest in Rowing and Cycling'
 )
 
 # Add a horizontal red line to the chart at y=50
