@@ -23,18 +23,18 @@ chart = alt.Chart(df).mark_bar().encode(
     y=alt.Y('Percentage Improvement', scale=alt.Scale(domain=[0, 100])),
     x=alt.X('Training Type', sort='-y'),
     # Add the color encoding. Set the color to:
-    # - #003049 if the Percentage Improvement is greater than 50, 
+    # - #80C11E if the Percentage Improvement is greater than 50, 
     # - lightgray otherwise
     color=alt.condition(
         alt.datum['Percentage Improvement'] > 50,
-        alt.value('#003049'),
+        alt.value('#80C11E'),
         alt.value('lightgray')
     )
 ).properties(
     width=300,
     # Add the following properties to the chart:
-    # * title to 'Invest in Rowling and Cycling'
-    title='Invest in Rowling and Cycling'
+    # * title to 'Invest in Rowing and Cycling'
+    title='Invest in Rowing and Cycling'
 )
 
 # Add a horizontal red line to the chart at y=50

@@ -38,7 +38,7 @@
         "enter": {
           "x": {"scale": "xscale", "field": "X"},
           "y": {"scale": "yscale", "field": "Y"},
-          "stroke": { "value": "#F67E00"}
+          "stroke": { "value": "#636466"}
           
         }
       }
@@ -52,7 +52,7 @@
           "y": {"scale": "yscale", "field": "Y"},
           "shape": {"value": "circle"},
           "size" : {"value": 100},
-          "fill": { "value": "#F67E00"}
+          "fill": { "value": "#636466"}
         }
       }
     }
