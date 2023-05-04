@@ -1,0 +1,1453 @@
+ITTER107,Territory,Sex,Age,Value
+ITD4,Friuli-Venezia Giulia,M,Y_UN4,19794
+ITE1,Toscana,M,Y_UN4,61789
+ITF6,Calabria,M,Y_UN4,36842
+ITD2,Provincia Autonoma Trento,T,Y5-9,25101
+ITD3,Veneto,M,Y5-9,105344
+ITF3,Campania,T,Y5-9,260587
+ITG1,Sicilia,M,Y5-9,110943
+ITG1,Sicilia,T,Y5-9,216634
+ITC2,Valle d'Aosta / Vallée d'Aoste,F,Y10-14,2909
+ITD3,Veneto,F,Y10-14,112988
+ITD4,Friuli-Venezia Giulia,M,Y10-14,27193
+ITD5,Emilia-Romagna,T,Y10-14,209310
+ITE2,Umbria,T,Y10-14,39547
+ITF5,Basilicata,F,Y10-14,11270
+ITC1,Piemonte,F,Y15-19,92827
+ITE3,Marche,M,Y15-19,35575
+ITF2,Molise,F,Y15-19,6179
+ITF6,Calabria,T,Y15-19,93045
+ITD5,Emilia-Romagna,T,Y20-24,206196
+ITG2,Sardegna,M,Y20-24,36311
+ITC2,Valle d'Aosta / Vallée d'Aoste,T,Y25-29,5885
+ITC3,Liguria,M,Y25-29,36221
+ITE1,Toscana,M,Y25-29,88045
+ITC1,Piemonte,F,Y30-34,105859
+ITC4,Lombardia,T,Y30-34,545732
+ITE4,Lazio,M,Y30-34,156953
+ITC1,Piemonte,M,Y35-39,116110
+ITD5,Emilia-Romagna,F,Y35-39,126793
+ITE2,Umbria,M,Y35-39,23926
+ITC3,Liguria,T,Y40-44,84849
+ITD1,Provincia Autonoma Bolzano / Bozen,F,Y40-44,16888
+ITG1,Sicilia,M,Y40-44,156752
+ITG2,Sardegna,F,Y40-44,53131
+ITD3,Veneto,F,Y45-49,190630
+ITE1,Toscana,F,Y45-49,147653
+ITE2,Umbria,T,Y45-49,65936
+ITG2,Sardegna,F,Y45-49,64196
+ITC1,Piemonte,F,Y50-54,177612
+ITF1,Abruzzo,M,Y50-54,50764
+ITC3,Liguria,M,Y55-59,63494
+ITC3,Liguria,F,Y55-59,66416
+ITE4,Lazio,F,Y55-59,242475
+ITF1,Abruzzo,T,Y55-59,102824
+ITE2,Umbria,M,Y65-69,25364
+ITC4,Lombardia,M,Y70-74,255444
+ITD5,Emilia-Romagna,F,Y70-74,133084
+ITE1,Toscana,M,Y70-74,104213
+ITF4,Puglia,F,Y70-74,122490
+ITF5,Basilicata,M,Y70-74,15471
+ITG1,Sicilia,F,Y70-74,146551
+ITD1,Provincia Autonoma Bolzano / Bozen,F,Y75-79,11927
+ITE1,Toscana,M,Y75-79,82899
+ITE4,Lazio,F,Y75-79,137092
+ITC1,Piemonte,M,Y80-84,80551
+ITC1,Piemonte,T,Y80-84,191546
+ITD1,Provincia Autonoma Bolzano / Bozen,F,Y80-84,10122
+ITD3,Veneto,F,Y80-84,109262
+ITF1,Abruzzo,T,Y80-84,50370
+ITF2,Molise,T,Y80-84,11935
+ITF6,Calabria,T,Y80-84,63352
+ITC4,Lombardia,M,Y85-89,82669
+ITD1,Provincia Autonoma Bolzano / Bozen,M,Y85-89,4010
+ITE3,Marche,F,Y85-89,26183
+ITD2,Provincia Autonoma Trento,M,Y90-94,1691
+ITD3,Veneto,F,Y90-94,37435
+ITE1,Toscana,F,Y90-94,33570
+ITE2,Umbria,F,Y90-94,8439
+ITC2,Valle d'Aosta / Vallée d'Aoste,M,Y95-99,73
+ITC4,Lombardia,M,Y95-99,4800
+ITE3,Marche,M,Y95-99,1141
+ITF2,Molise,T,Y95-99,1111
+ITE1,Toscana,M,Y_GE100,237
+ITE4,Lazio,F,TOTAL,2946526
+ITF3,Campania,F,TOTAL,2876843
+ITF4,Puglia,T,TOTAL,3922941
+ITD4,Friuli-Venezia Giulia,T,Y_UN4,38789
+ITF5,Basilicata,M,Y_UN4,9390
+ITC3,Liguria,F,Y5-9,26532
+ITC4,Lombardia,F,Y5-9,213975
+ITD5,Emilia-Romagna,T,Y5-9,188449
+ITC3,Liguria,M,Y_UN4,23461
+ITE2,Umbria,M,Y20-24,20663
+ITF2,Molise,M,Y10-14,6191
+ITE1,Toscana,T,Y5-9,146728
+ITG1,Sicilia,F,Y10-14,116324
+ITF6,Calabria,T,Y30-34,109784
+ITC1,Piemonte,T,Y25-29,203792
+ITE4,Lazio,T,Y10-14,277561
+ITF3,Campania,M,Y45-49,209077
+ITD3,Veneto,M,Y30-34,128158
+ITE2,Umbria,T,Y15-19,39332
+ITE3,Marche,T,Y30-34,76047
+ITD1,Provincia Autonoma Bolzano / Bozen,F,Y45-49,19472
+ITC1,Piemonte,M,Y65-69,128562
+ITE1,Toscana,M,Y50-54,149132
+ITC4,Lombardia,M,Y55-59,399297
+ITD4,Friuli-Venezia Giulia,T,Y75-79,63837
+ITD5,Emilia-Romagna,M,Y75-79,91713
+ITG2,Sardegna,F,Y70-74,51909
+ITD4,Friuli-Venezia Giulia,T,Y80-84,55052
+ITG2,Sardegna,T,Y55-59,134763
+ITG1,Sicilia,M,Y90-94,14166
+ITC4,Lombardia,F,Y65-69,294423
+ITF5,Basilicata,T,Y65-69,35335
+ITD2,Provincia Autonoma Trento,M,Y85-89,4259
+ITE1,Toscana,M,Y85-89,38332
+ITF3,Campania,M,Y85-89,35124
+ITF4,Puglia,M,TOTAL,1910909
+ITF6,Calabria,T,Y95-99,4757
+ITC1,Piemonte,F,Y80-84,110995
+ITF4,Puglia,T,Y90-94,38753
+ITD2,Provincia Autonoma Trento,T,Y95-99,1690
+ITD2,Provincia Autonoma Trento,T,Y_GE100,209
+ITG2,Sardegna,F,TOTAL,808743
+ITC4,Lombardia,M,Y10-14,252710
+ITD5,Emilia-Romagna,F,Y10-14,101373
+ITF1,Abruzzo,M,Y25-29,33107
+ITE2,Umbria,T,Y5-9,34717
+ITF1,Abruzzo,M,Y45-49,48230
+ITF2,Molise,T,Y10-14,11983
+ITE2,Umbria,F,Y20-24,18608
+ITD4,Friuli-Venezia Giulia,F,Y85-89,20416
+ITF5,Basilicata,T,Y40-44,33944
+ITD2,Provincia Autonoma Trento,T,Y60-64,37092
+ITF6,Calabria,F,Y45-49,68051
+ITD5,Emilia-Romagna,M,Y65-69,121658
+ITD2,Provincia Autonoma Trento,T,Y50-54,42872
+ITE2,Umbria,M,Y50-54,33120
+ITD1,Provincia Autonoma Bolzano / Bozen,M,Y25-29,15459
+ITF5,Basilicata,T,Y60-64,39754
+ITC3,Liguria,F,Y35-39,36531
+ITC4,Lombardia,T,Y35-39,585166
+ITE2,Umbria,T,Y75-79,42436
+ITE1,Toscana,M,Y80-84,68722
+ITC4,Lombardia,T,Y85-89,230586
+ITC3,Liguria,T,Y90-94,23890
+ITE3,Marche,T,Y90-94,19847
+ITF2,Molise,M,TOTAL,144013
+ITD2,Provincia Autonoma Trento,T,TOTAL,540958
+ITF3,Campania,T,TOTAL,5624420
+ITD2,Provincia Autonoma Trento,F,Y85-89,7581
+ITE1,Toscana,F,Y85-89,62725
+ITF3,Campania,F,Y85-89,61556
+ITC1,Piemonte,F,Y90-94,37469
+ITE4,Lazio,T,Y95-99,14524
+ITE3,Marche,F,Y_GE100,509
+ITE1,Toscana,F,TOTAL,1886385
+ITD5,Emilia-Romagna,M,Y_UN4,82004
+ITF3,Campania,M,Y30-34,170496
+ITD5,Emilia-Romagna,T,Y35-39,254136
+ITF2,Molise,M,Y55-59,11836
+ITD2,Provincia Autonoma Trento,T,Y70-74,29253
+ITC1,Piemonte,F,Y75-79,115537
+ITD1,Provincia Autonoma Bolzano / Bozen,M,Y75-79,9791
+ITF2,Molise,F,Y75-79,6714
+ITF6,Calabria,T,Y_GE100,623
+ITD1,Provincia Autonoma Bolzano / Bozen,T,Y_UN4,26527
+ITF4,Puglia,F,Y_UN4,67756
+ITC4,Lombardia,F,Y_UN4,180399
+ITF3,Campania,M,Y5-9,134085
+ITF3,Campania,M,Y10-14,151893
+ITG1,Sicilia,M,Y15-19,131214
+ITD3,Veneto,M,Y_UN4,89271
+ITF5,Basilicata,M,Y20-24,15024
+ITC3,Liguria,T,Y20-24,66898
+ITF1,Abruzzo,T,Y20-24,60357
+ITF2,Molise,M,Y20-24,7675
+ITG2,Sardegna,T,Y25-29,72912
+ITF2,Molise,F,Y25-29,7378
+ITF3,Campania,F,Y25-29,161330
+ITC4,Lombardia,T,Y25-29,499410
+ITG1,Sicilia,T,Y25-29,266686
+ITD5,Emilia-Romagna,T,Y25-29,216587
+ITD1,Provincia Autonoma Bolzano / Bozen,M,Y30-34,15804
+ITG1,Sicilia,T,Y30-34,281047
+ITC4,Lombardia,M,Y35-39,296649
+ITF6,Calabria,F,Y35-39,56061
+ITF2,Molise,M,Y35-39,8629
+ITC4,Lombardia,F,Y35-39,288517
+ITE4,Lazio,F,Y35-39,170635
+ITF2,Molise,T,Y40-44,18408
+ITC1,Piemonte,T,Y5-9,172406
+ITF4,Puglia,T,Y30-34,218131
+ITE2,Umbria,M,Y45-49,32253
+ITF4,Puglia,T,Y45-49,300202
+ITE1,Toscana,M,Y45-49,143617
+ITF2,Molise,M,Y50-54,11263
+ITG2,Sardegna,M,Y55-59,66290
+ITE3,Marche,M,Y55-59,58189
+ITD3,Veneto,F,Y15-19,113445
+ITG2,Sardegna,M,Y15-19,35254
+ITC2,Valle d'Aosta / Vallée d'Aoste,T,Y60-64,8757
+ITD1,Provincia Autonoma Bolzano / Bozen,T,Y65-69,26637
+ITF2,Molise,M,Y65-69,9603
+ITC4,Lombardia,T,Y75-79,439630
+ITC4,Lombardia,M,Y75-79,196348
+ITF2,Molise,F,Y60-64,11063
+ITD4,Friuli-Venezia Giulia,F,Y80-84,31829
+ITD3,Veneto,M,Y90-94,14647
+ITF2,Molise,F,Y85-89,5355
+ITF4,Puglia,F,Y85-89,53585
+ITG2,Sardegna,F,Y85-89,23827
+ITD1,Provincia Autonoma Bolzano / Bozen,T,Y40-44,33732
+ITF2,Molise,M,Y40-44,9314
+ITD2,Provincia Autonoma Trento,F,Y90-94,4250
+ITF1,Abruzzo,M,Y90-94,4921
+ITF3,Campania,F,Y90-94,28889
+ITF1,Abruzzo,F,Y45-49,48643
+ITC1,Piemonte,M,Y85-89,43134
+ITC1,Piemonte,T,Y50-54,352100
+ITD4,Friuli-Venezia Giulia,M,Y55-59,49420
+ITF6,Calabria,T,Y85-89,42930
+ITC2,Valle d'Aosta / Vallée d'Aoste,T,Y_GE100,33
+ITD4,Friuli-Venezia Giulia,F,Y_GE100,535
+ITF5,Basilicata,T,Y_GE100,200
+ITC3,Liguria,M,Y90-94,6978
+ITF4,Puglia,F,Y65-69,125011
+ITF6,Calabria,M,Y70-74,51685
+ITE1,Toscana,T,Y_GE100,1519
+ITD1,Provincia Autonoma Bolzano / Bozen,M,TOTAL,264129
+ITE3,Marche,F,Y70-74,46095
+ITE2,Umbria,M,Y75-79,19310
+ITF4,Puglia,T,Y75-79,174926
+ITC1,Piemonte,T,Y75-79,210383
+ITF3,Campania,M,Y80-84,66580
+ITD2,Provincia Autonoma Trento,M,Y_GE100,31
+ITG2,Sardegna,M,Y_GE100,118
+ITC3,Liguria,T,Y85-89,48786
+ITG2,Sardegna,F,Y90-94,12076
+ITD1,Provincia Autonoma Bolzano / Bozen,M,Y95-99,290
+ITF5,Basilicata,F,Y95-99,1161
+ITF3,Campania,F,Y_GE100,1001
+ITD2,Provincia Autonoma Trento,M,TOTAL,266340
+ITD3,Veneto,F,TOTAL,2467002
+ITE1,Toscana,M,TOTAL,1776806
+ITE4,Lazio,T,Y5-9,251615
+ITF4,Puglia,F,Y10-14,90834
+ITC1,Piemonte,T,Y15-19,191924
+ITE2,Umbria,F,Y25-29,19308
+ITG2,Sardegna,M,Y30-34,42043
+ITE1,Toscana,M,Y35-39,100879
+ITC3,Liguria,F,Y45-49,56467
+ITG2,Sardegna,M,Y45-49,65981
+ITG2,Sardegna,F,Y50-54,66890
+ITC1,Piemonte,M,Y55-59,170066
+ITE1,Toscana,M,Y55-59,145353
+ITF4,Puglia,M,Y65-69,112549
+ITC1,Piemonte,T,Y70-74,263473
+ITC2,Valle d'Aosta / Vallée d'Aoste,M,Y90-94,399
+ITC1,Piemonte,M,Y95-99,2575
+ITD2,Provincia Autonoma Trento,M,Y95-99,323
+ITF2,Molise,M,Y95-99,259
+ITG1,Sicilia,F,Y95-99,7940
+ITC2,Valle d'Aosta / Vallée d'Aoste,F,Y15-19,2858
+ITC3,Liguria,M,Y5-9,28383
+ITE4,Lazio,F,Y5-9,122461
+ITF5,Basilicata,T,Y5-9,20542
+ITF5,Basilicata,F,Y5-9,9955
+ITD1,Provincia Autonoma Bolzano / Bozen,T,Y10-14,28280
+ITF1,Abruzzo,F,Y20-24,28714
+ITD2,Provincia Autonoma Trento,M,Y10-14,14122
+ITF3,Campania,T,Y10-14,295782
+ITF3,Campania,T,Y20-24,322914
+ITF4,Puglia,T,Y20-24,212210
+ITC4,Lombardia,F,Y25-29,241852
+ITD1,Provincia Autonoma Bolzano / Bozen,F,Y35-39,15590
+ITF5,Basilicata,M,Y5-9,10587
+ITD5,Emilia-Romagna,F,Y20-24,97232
+ITF4,Puglia,T,Y35-39,226517
+ITD3,Veneto,T,Y10-14,232622
+ITD3,Veneto,M,Y25-29,124639
+ITF4,Puglia,T,Y25-29,211689
+ITE2,Umbria,T,Y40-44,55505
+ITF4,Puglia,F,Y40-44,131783
+ITF1,Abruzzo,F,Y15-19,27858
+ITF6,Calabria,T,Y45-49,133806
+ITE4,Lazio,T,Y35-39,343775
+ITC1,Piemonte,F,Y5-9,83677
+ITF5,Basilicata,F,Y35-39,15291
+ITF3,Campania,T,Y45-49,424912
+ITD3,Veneto,T,Y45-49,384416
+ITE1,Toscana,M,Y65-69,105226
+ITF3,Campania,M,Y65-69,152673
+ITC1,Piemonte,M,Y50-54,174488
+ITD3,Veneto,T,Y70-74,271088
+ITD4,Friuli-Venezia Giulia,M,Y70-74,34816
+ITD5,Emilia-Romagna,F,Y55-59,177870
+ITE4,Lazio,T,Y55-59,469794
+ITF5,Basilicata,M,Y75-79,9820
+ITC4,Lombardia,T,Y60-64,654218
+ITF3,Campania,T,Y60-64,374348
+ITD2,Provincia Autonoma Trento,F,Y50-54,21500
+ITF2,Molise,T,Y65-69,19727
+ITF4,Puglia,T,Y65-69,237560
+ITD1,Provincia Autonoma Bolzano / Bozen,M,Y65-69,12877
+ITD4,Friuli-Venezia Giulia,T,Y30-34,58987
+ITC1,Piemonte,M,Y70-74,123356
+ITF6,Calabria,F,Y5-9,39348
+ITC2,Valle d'Aosta / Vallée d'Aoste,T,Y90-94,1422
+ITD5,Emilia-Romagna,M,Y45-49,180326
+ITE2,Umbria,M,Y70-74,25249
+ITG2,Sardegna,T,Y70-74,98635
+ITF6,Calabria,T,Y90-94,18971
+ITE3,Marche,M,Y80-84,27460
+ITF4,Puglia,M,Y15-19,103156
+ITD4,Friuli-Venezia Giulia,M,Y50-54,50002
+ITF5,Basilicata,M,Y80-84,8749
+ITF6,Calabria,M,Y80-84,27430
+ITC1,Piemonte,T,Y95-99,12419
+ITF3,Campania,T,Y95-99,9382
+ITE3,Marche,M,Y_GE100,93
+ITD5,Emilia-Romagna,F,TOTAL,2261831
+ITC2,Valle d'Aosta / Vallée d'Aoste,M,Y55-59,5247
+ITD3,Veneto,F,Y55-59,202757
+ITF3,Campania,T,Y_GE100,1281
+ITE4,Lazio,M,Y80-84,88013
+ITF1,Abruzzo,M,Y20-24,31643
+ITF6,Calabria,M,Y20-24,50260
+ITE1,Toscana,T,Y60-64,253268
+ITD1,Provincia Autonoma Bolzano / Bozen,F,Y95-99,960
+ITG1,Sicilia,M,Y95-99,2594
+ITD4,Friuli-Venezia Giulia,T,Y85-89,31746
+ITE4,Lazio,F,Y10-14,134627
+ITF1,Abruzzo,F,Y_GE100,453
+ITF5,Basilicata,F,Y_GE100,154
+ITE3,Marche,F,Y15-19,33138
+ITE4,Lazio,T,TOTAL,5714882
+ITF1,Abruzzo,M,Y35-39,37866
+ITF1,Abruzzo,T,Y95-99,4005
+ITC2,Valle d'Aosta / Vallée d'Aoste,F,Y45-49,4891
+ITF5,Basilicata,F,Y45-49,20023
+ITE1,Toscana,T,Y25-29,170191
+ITF2,Molise,T,Y25-29,15459
+ITE4,Lazio,T,Y85-89,129231
+ITC3,Liguria,F,Y90-94,16912
+ITD2,Provincia Autonoma Trento,F,Y55-59,21612
+ITC3,Liguria,T,Y35-39,74572
+ITD2,Provincia Autonoma Trento,F,Y35-39,15107
+ITD3,Veneto,T,Y35-39,266898
+ITD4,Friuli-Venezia Giulia,M,Y35-39,32193
+ITE3,Marche,F,Y95-99,4091
+ITC4,Lombardia,F,Y60-64,334863
+ITE2,Umbria,T,Y65-69,53390
+ITD4,Friuli-Venezia Giulia,F,TOTAL,611943
+ITE2,Umbria,M,TOTAL,415195
+ITC3,Liguria,M,Y50-54,61842
+ITF3,Campania,T,Y75-79,213222
+ITC3,Liguria,T,Y55-59,129910
+ITD5,Emilia-Romagna,T,Y80-84,182107
+ITE4,Lazio,F,Y80-84,124486
+ITG1,Sicilia,F,Y80-84,95739
+ITD1,Provincia Autonoma Bolzano / Bozen,F,Y65-69,13760
+ITD5,Emilia-Romagna,F,Y85-89,71404
+ITE3,Marche,T,Y85-89,42026
+ITC1,Piemonte,F,Y95-99,9844
+ITF2,Molise,F,Y_GE100,124
+ITG1,Sicilia,F,TOTAL,2479556
+ITF4,Puglia,M,Y80-84,59703
+ITC1,Piemonte,T,Y85-89,116722
+ITE1,Toscana,T,Y85-89,101057
+ITE4,Lazio,M,Y95-99,3416
+ITD2,Provincia Autonoma Trento,T,Y_UN4,21544
+ITF2,Molise,F,Y5-9,5146
+ITD4,Friuli-Venezia Giulia,F,Y5-9,22557
+ITC3,Liguria,T,Y5-9,54915
+ITD1,Provincia Autonoma Bolzano / Bozen,F,Y10-14,13586
+ITG1,Sicilia,T,Y15-19,253298
+ITG2,Sardegna,M,Y5-9,29677
+ITF2,Molise,T,Y20-24,14448
+ITF1,Abruzzo,M,Y10-14,29721
+ITD2,Provincia Autonoma Trento,F,Y25-29,14043
+ITF6,Calabria,M,Y30-34,55678
+ITF3,Campania,F,Y35-39,174266
+ITF4,Puglia,F,Y35-39,113486
+ITD3,Veneto,M,Y20-24,124992
+ITG1,Sicilia,M,Y35-39,144514
+ITF1,Abruzzo,M,Y40-44,42494
+ITF3,Campania,M,Y35-39,175074
+ITF5,Basilicata,M,Y35-39,16158
+ITE3,Marche,M,Y45-49,57151
+ITG1,Sicilia,F,Y30-34,139196
+ITF3,Campania,F,Y45-49,215835
+ITG1,Sicilia,T,Y45-49,357771
+ITF3,Campania,T,Y55-59,434623
+ITD4,Friuli-Venezia Giulia,T,Y55-59,99760
+ITF1,Abruzzo,F,Y60-64,46892
+ITC1,Piemonte,M,Y45-49,163850
+ITG1,Sicilia,M,Y65-69,138818
+ITE4,Lazio,T,Y65-69,333243
+ITG1,Sicilia,T,Y65-69,293436
+ITE2,Umbria,M,Y60-64,28910
+ITC2,Valle d'Aosta / Vallée d'Aoste,T,Y65-69,7697
+ITG1,Sicilia,T,Y20-24,259484
+ITE1,Toscana,F,Y70-74,118542
+ITF2,Molise,F,Y70-74,9599
+ITD1,Provincia Autonoma Bolzano / Bozen,T,Y75-79,21718
+ITE3,Marche,M,Y70-74,41446
+ITD3,Veneto,T,Y30-34,251874
+ITC3,Liguria,F,Y80-84,45754
+ITD3,Veneto,T,Y75-79,226026
+ITF5,Basilicata,F,Y75-79,11816
+ITD2,Provincia Autonoma Trento,T,Y80-84,19412
+ITF1,Abruzzo,F,Y90-94,10833
+ITC1,Piemonte,T,Y90-94,53089
+ITE1,Toscana,M,Y30-34,94899
+ITF2,Molise,M,Y30-34,8401
+ITG1,Sicilia,T,Y95-99,10534
+ITF5,Basilicata,M,Y90-94,2150
+ITD1,Provincia Autonoma Bolzano / Bozen,F,Y50-54,21405
+ITD3,Veneto,M,Y50-54,205938
+ITE3,Marche,F,Y75-79,38097
+ITF3,Campania,F,Y55-59,223891
+ITD1,Provincia Autonoma Bolzano / Bozen,T,Y70-74,23802
+ITD3,Veneto,F,Y70-74,142668
+ITF2,Molise,T,Y75-79,12588
+ITC3,Liguria,T,TOTAL,1509227
+ITE2,Umbria,T,TOTAL,858812
+ITC4,Lombardia,M,Y80-84,162849
+ITE3,Marche,T,Y80-84,64753
+ITD5,Emilia-Romagna,M,Y85-89,44074
+ITE2,Umbria,F,Y85-89,15411
+ITG2,Sardegna,F,Y95-99,3352
+ITF3,Campania,M,Y95-99,2226
+ITF6,Calabria,F,Y_UN4,35309
+ITD1,Provincia Autonoma Bolzano / Bozen,M,Y10-14,14694
+ITG1,Sicilia,T,Y10-14,238494
+ITD1,Provincia Autonoma Bolzano / Bozen,M,Y_UN4,13650
+ITF3,Campania,T,Y15-19,317039
+ITG2,Sardegna,T,Y20-24,69358
+ITF1,Abruzzo,T,Y10-14,57667
+ITE3,Marche,F,Y25-29,34401
+ITF5,Basilicata,T,Y30-34,30809
+ITE4,Lazio,M,Y40-44,195265
+ITD1,Provincia Autonoma Bolzano / Bozen,F,Y25-29,14306
+ITD2,Provincia Autonoma Trento,F,Y40-44,16783
+ITE4,Lazio,T,Y20-24,266934
+ITD2,Provincia Autonoma Trento,F,Y15-19,13373
+ITF3,Campania,F,Y15-19,153826
+ITC4,Lombardia,M,Y30-34,277211
+ITC2,Valle d'Aosta / Vallée d'Aoste,T,Y40-44,7559
+ITD3,Veneto,M,Y40-44,156714
+ITF6,Calabria,M,Y50-54,67624
+ITG1,Sicilia,T,Y50-54,372040
+ITD5,Emilia-Romagna,M,Y30-34,120382
+ITE3,Marche,T,Y25-29,72002
+ITC2,Valle d'Aosta / Vallée d'Aoste,T,Y55-59,10504
+ITD2,Provincia Autonoma Trento,F,Y30-34,14603
+ITE4,Lazio,F,Y25-29,134878
+ITG2,Sardegna,M,Y65-69,52739
+ITC4,Lombardia,M,Y45-49,404365
+ITF6,Calabria,M,Y55-59,68985
+ITD4,Friuli-Venezia Giulia,F,Y60-64,43121
+ITG2,Sardegna,M,Y60-64,58607
+ITF1,Abruzzo,F,Y65-69,42084
+ITF3,Campania,F,Y65-69,167036
+ITG2,Sardegna,F,Y65-69,56576
+ITF2,Molise,T,Y60-64,21642
+ITD5,Emilia-Romagna,M,Y70-74,116496
+ITF6,Calabria,T,Y60-64,131572
+ITC2,Valle d'Aosta / Vallée d'Aoste,T,Y75-79,5688
+ITE1,Toscana,T,Y75-79,183752
+ITF2,Molise,M,Y80-84,5000
+ITF1,Abruzzo,M,Y60-64,43473
+ITF5,Basilicata,T,Y80-84,20602
+ITE4,Lazio,F,Y65-69,176467
+ITC1,Piemonte,F,Y85-89,73588
+ITG1,Sicilia,M,Y85-89,38814
+ITF1,Abruzzo,M,Y95-99,912
+ITC2,Valle d'Aosta / Vallée d'Aoste,F,Y85-89,1858
+ITF5,Basilicata,T,TOTAL,541168
+ITF6,Calabria,M,Y90-94,6217
+ITG1,Sicilia,T,Y_GE100,1293
+ITC1,Piemonte,F,TOTAL,2182505
+ITF4,Puglia,T,Y5-9,164145
+ITE4,Lazio,T,Y75-79,244821
+ITC1,Piemonte,M,Y10-14,99222
+ITD4,Friuli-Venezia Giulia,F,Y25-29,26116
+ITD2,Provincia Autonoma Trento,T,Y30-34,29740
+ITG2,Sardegna,T,Y45-49,130177
+ITD1,Provincia Autonoma Bolzano / Bozen,T,Y50-54,43081
+ITF1,Abruzzo,F,Y95-99,3093
+ITE4,Lazio,M,Y_GE100,366
+ITE4,Lazio,F,Y95-99,11108
+ITC4,Lombardia,T,Y5-9,440324
+ITE3,Marche,F,Y_UN4,24054
+ITE3,Marche,T,Y10-14,69184
+ITG2,Sardegna,F,Y10-14,32309
+ITC3,Liguria,T,Y_UN4,45678
+ITE3,Marche,T,Y_UN4,49580
+ITD1,Provincia Autonoma Bolzano / Bozen,F,Y15-19,13953
+ITD4,Friuli-Venezia Giulia,M,Y5-9,23814
+ITC1,Piemonte,T,Y_UN4,143126
+ITF2,Molise,T,Y_UN4,9244
+ITF3,Campania,T,Y_UN4,232991
+ITF3,Campania,F,Y_UN4,113336
+ITD2,Provincia Autonoma Trento,T,Y10-14,27596
+ITE1,Toscana,T,Y10-14,166977
+ITD5,Emilia-Romagna,T,Y15-19,203840
+ITF1,Abruzzo,T,Y15-19,57905
+ITF1,Abruzzo,T,Y_UN4,43804
+ITC2,Valle d'Aosta / Vallée d'Aoste,M,Y25-29,3040
+ITE3,Marche,M,Y20-24,37625
+ITF2,Molise,M,Y5-9,5603
+ITC3,Liguria,F,Y15-19,31097
+ITF1,Abruzzo,T,Y25-29,63923
+ITG2,Sardegna,M,Y25-29,38072
+ITD4,Friuli-Venezia Giulia,T,Y10-14,52746
+ITF3,Campania,M,Y15-19,163213
+ITD5,Emilia-Romagna,F,Y40-44,146514
+ITE3,Marche,T,Y40-44,97614
+ITD3,Veneto,T,Y25-29,240205
+ITF4,Puglia,F,Y15-19,98042
+ITC2,Valle d'Aosta / Vallée d'Aoste,T,Y35-39,6634
+ITC3,Liguria,M,Y35-39,38041
+ITD3,Veneto,T,Y40-44,311721
+ITD1,Provincia Autonoma Bolzano / Bozen,T,Y45-49,38635
+ITG1,Sicilia,F,Y45-49,181217
+ITC3,Liguria,T,Y30-34,72060
+ITD4,Friuli-Venezia Giulia,M,Y30-34,30177
+ITD1,Provincia Autonoma Bolzano / Bozen,M,Y50-54,21676
+ITD3,Veneto,T,Y50-54,409957
+ITD4,Friuli-Venezia Giulia,M,Y25-29,29217
+ITE4,Lazio,M,Y25-29,145876
+ITE4,Lazio,T,Y50-54,482996
+ITD4,Friuli-Venezia Giulia,F,Y30-34,28810
+ITF6,Calabria,T,Y55-59,143018
+ITF3,Campania,F,Y30-34,169557
+ITF4,Puglia,F,Y30-34,107583
+ITF2,Molise,F,Y45-49,10594
+ITD5,Emilia-Romagna,T,Y55-59,351329
+ITG1,Sicilia,T,Y35-39,288487
+ITD2,Provincia Autonoma Trento,T,Y35-39,30633
+ITF3,Campania,T,Y35-39,349340
+ITG1,Sicilia,M,Y50-54,181119
+ITE1,Toscana,T,Y40-44,236713
+ITE2,Umbria,T,Y60-64,59971
+ITE1,Toscana,F,Y40-44,118986
+ITC2,Valle d'Aosta / Vallée d'Aoste,M,Y65-69,3743
+ITF5,Basilicata,T,Y45-49,39925
+ITC3,Liguria,M,Y60-64,53742
+ITF4,Puglia,T,Y60-64,268392
+ITC3,Liguria,T,Y50-54,125733
+ITF4,Puglia,F,Y50-54,156695
+ITF5,Basilicata,F,Y50-54,21710
+ITF3,Campania,T,Y50-54,435272
+ITC2,Valle d'Aosta / Vallée d'Aoste,T,Y50-54,10580
+ITD4,Friuli-Venezia Giulia,F,Y50-54,50270
+ITE4,Lazio,F,Y50-54,249168
+ITF6,Calabria,T,Y50-54,140079
+ITD1,Provincia Autonoma Bolzano / Bozen,T,Y55-59,42124
+ITF2,Molise,F,Y55-59,12000
+ITC1,Piemonte,T,Y55-59,345479
+ITD3,Veneto,M,Y55-59,201377
+ITE4,Lazio,F,Y60-64,204484
+ITE1,Toscana,F,Y60-64,131140
+ITG1,Sicilia,T,Y60-64,331142
+ITG1,Sicilia,F,Y85-89,63094
+ITG2,Sardegna,M,Y85-89,14091
+ITF6,Calabria,T,Y65-69,116766
+ITF4,Puglia,T,Y80-84,140432
+ITC4,Lombardia,F,Y70-74,292395
+ITC1,Piemonte,M,Y90-94,15620
+ITG1,Sicilia,F,Y90-94,30105
+ITC3,Liguria,T,Y70-74,97921
+ITE3,Marche,T,Y70-74,87541
+ITG2,Sardegna,M,Y90-94,5603
+ITC4,Lombardia,T,Y70-74,547839
+ITF1,Abruzzo,F,Y75-79,30740
+ITD5,Emilia-Romagna,T,Y95-99,14828
+ITD2,Provincia Autonoma Trento,F,Y75-79,12730
+ITF3,Campania,F,Y75-79,117596
+ITD1,Provincia Autonoma Bolzano / Bozen,T,Y95-99,1250
+ITE1,Toscana,M,Y95-99,2850
+ITG2,Sardegna,M,Y95-99,1095
+ITD3,Veneto,F,Y75-79,123512
+ITC3,Liguria,M,Y_GE100,93
+ITE2,Umbria,M,Y_GE100,53
+ITD1,Provincia Autonoma Bolzano / Bozen,M,Y90-94,1579
+ITC4,Lombardia,F,Y80-84,228117
+ITD3,Veneto,M,Y80-84,80751
+ITE4,Lazio,M,TOTAL,2768356
+ITD2,Provincia Autonoma Trento,M,Y80-84,8181
+ITF1,Abruzzo,T,Y_GE100,584
+ITD1,Provincia Autonoma Bolzano / Bozen,F,TOTAL,268487
+ITE1,Toscana,T,TOTAL,3663191
+ITF1,Abruzzo,F,TOTAL,651788
+ITE1,Toscana,F,Y80-84,94163
+ITF2,Molise,F,Y80-84,6935
+ITG1,Sicilia,T,Y80-84,164579
+ITE4,Lazio,M,Y85-89,48055
+ITF6,Calabria,F,Y85-89,26386
+ITD5,Emilia-Romagna,T,TOTAL,4425366
+ITF1,Abruzzo,M,Y85-89,12642
+ITE4,Lazio,F,Y85-89,81176
+ITF5,Basilicata,F,Y90-94,4325
+ITE3,Marche,M,Y90-94,6155
+ITD1,Provincia Autonoma Bolzano / Bozen,M,Y_GE100,20
+ITD2,Provincia Autonoma Trento,F,Y_GE100,178
+ITC3,Liguria,M,Y95-99,1274
+ITC3,Liguria,T,Y95-99,6195
+ITD4,Friuli-Venezia Giulia,M,Y_GE100,70
+ITE3,Marche,T,Y_GE100,602
+ITE3,Marche,M,TOTAL,725470
+ITE3,Marche,F,TOTAL,761680
+ITD1,Provincia Autonoma Bolzano / Bozen,M,Y15-19,15022
+ITE2,Umbria,T,Y20-24,39271
+ITF5,Basilicata,F,Y20-24,13224
+ITE2,Umbria,M,Y25-29,20795
+ITF1,Abruzzo,F,Y30-34,33554
+ITD4,Friuli-Venezia Giulia,T,Y40-44,73808
+ITD5,Emilia-Romagna,M,Y40-44,147132
+ITC2,Valle d'Aosta / Vallée d'Aoste,T,Y45-49,9622
+ITC3,Liguria,M,Y45-49,55353
+ITF3,Campania,M,Y50-54,211750
+ITF6,Calabria,F,Y55-59,74033
+ITE4,Lazio,T,Y60-64,390282
+ITC1,Piemonte,T,Y65-69,267669
+ITD3,Veneto,M,Y65-69,138983
+ITE2,Umbria,F,Y80-84,22103
+ITE4,Lazio,T,Y80-84,212499
+ITF2,Molise,T,Y90-94,4067
+ITD5,Emilia-Romagna,F,Y_GE100,1520
+ITD1,Provincia Autonoma Bolzano / Bozen,F,Y5-9,13614
+ITE1,Toscana,F,Y15-19,80333
+ITE2,Umbria,T,Y_UN4,28155
+ITD4,Friuli-Venezia Giulia,T,Y15-19,53358
+ITF5,Basilicata,M,Y15-19,13589
+ITF1,Abruzzo,F,Y5-9,25497
+ITC1,Piemonte,F,Y20-24,94023
+ITG2,Sardegna,F,Y20-24,33047
+ITF3,Campania,T,Y25-29,327921
+ITD5,Emilia-Romagna,M,Y10-14,107937
+ITF5,Basilicata,M,Y10-14,12096
+ITC1,Piemonte,M,Y15-19,99097
+ITD1,Provincia Autonoma Bolzano / Bozen,T,Y15-19,28975
+ITF2,Molise,M,Y15-19,6833
+ITG2,Sardegna,F,Y35-39,44812
+ITE1,Toscana,M,Y40-44,117727
+ITC3,Liguria,F,Y25-29,32747
+ITD4,Friuli-Venezia Giulia,T,Y25-29,55333
+ITF5,Basilicata,M,Y25-29,15355
+ITD2,Provincia Autonoma Trento,M,Y30-34,15137
+ITG1,Sicilia,M,Y45-49,176554
+ITE1,Toscana,F,Y30-34,91981
+ITE1,Toscana,F,Y35-39,101797
+ITC1,Piemonte,M,Y60-64,145910
+ITF2,Molise,M,Y60-64,10579
+ITD2,Provincia Autonoma Trento,T,Y65-69,31979
+ITC3,Liguria,T,Y45-49,111820
+ITF2,Molise,T,Y50-54,22850
+ITD4,Friuli-Venezia Giulia,F,Y75-79,35042
+ITE1,Toscana,F,Y65-69,116820
+ITE4,Lazio,M,Y70-74,143147
+ITD4,Friuli-Venezia Giulia,M,Y65-69,35302
+ITG2,Sardegna,M,Y80-84,25932
+ITC2,Valle d'Aosta / Vallée d'Aoste,M,Y75-79,2662
+ITG1,Sicilia,T,Y75-79,199677
+ITD5,Emilia-Romagna,F,Y75-79,110887
+ITC4,Lombardia,M,Y90-94,28680
+ITE4,Lazio,M,Y90-94,17926
+ITC3,Liguria,M,Y85-89,17608
+ITE2,Umbria,M,Y85-89,9411
+ITE2,Umbria,T,Y95-99,3271
+ITE3,Marche,T,Y95-99,5232
+ITC4,Lombardia,F,Y85-89,147917
+ITD5,Emilia-Romagna,T,Y85-89,115478
+ITE2,Umbria,T,Y_GE100,361
+ITD5,Emilia-Romagna,T,Y90-94,54836
+ITD4,Friuli-Venezia Giulia,F,Y95-99,3550
+ITF4,Puglia,M,Y90-94,12445
+ITD4,Friuli-Venezia Giulia,M,Y90-94,4180
+ITD3,Veneto,T,TOTAL,4847745
+ITE1,Toscana,T,Y95-99,12713
+ITD5,Emilia-Romagna,M,Y_GE100,306
+ITG1,Sicilia,M,Y_GE100,288
+ITF2,Molise,T,TOTAL,292150
+ITD3,Veneto,T,Y5-9,205208
+ITF3,Campania,F,Y5-9,126502
+ITF6,Calabria,M,Y25-29,51988
+ITF4,Puglia,M,Y30-34,110548
+ITF3,Campania,M,Y55-59,210732
+ITF5,Basilicata,T,Y70-74,32454
+ITD4,Friuli-Venezia Giulia,M,Y75-79,28795
+ITG2,Sardegna,F,Y75-79,42695
+ITE2,Umbria,F,Y_GE100,308
+ITE3,Marche,T,Y15-19,68713
+ITC2,Valle d'Aosta / Vallée d'Aoste,T,Y20-24,5965
+ITC4,Lombardia,F,Y30-34,268521
+ITE3,Marche,M,Y35-39,41746
+ITD3,Veneto,T,Y60-64,337906
+ITG1,Sicilia,M,Y70-74,127720
+ITG2,Sardegna,F,Y80-84,36153
+ITC4,Lombardia,M,TOTAL,4881528
+ITC2,Valle d'Aosta / Vallée d'Aoste,T,Y_UN4,4116
+ITD4,Friuli-Venezia Giulia,F,Y_UN4,18995
+ITD5,Emilia-Romagna,T,Y_UN4,158952
+ITE4,Lazio,F,Y_UN4,99771
+ITE3,Marche,M,Y5-9,31420
+ITE2,Umbria,F,Y15-19,18961
+ITF3,Campania,M,Y_UN4,119655
+ITC2,Valle d'Aosta / Vallée d'Aoste,M,Y10-14,3104
+ITC1,Piemonte,M,Y5-9,88729
+ITF6,Calabria,M,Y10-14,45085
+ITD5,Emilia-Romagna,F,Y30-34,116285
+ITC2,Valle d'Aosta / Vallée d'Aoste,F,Y20-24,2857
+ITC4,Lombardia,M,Y20-24,255056
+ITC2,Valle d'Aosta / Vallée d'Aoste,F,Y35-39,3312
+ITD3,Veneto,F,Y5-9,99864
+ITE3,Marche,F,Y5-9,29562
+ITD2,Provincia Autonoma Trento,M,Y40-44,16756
+ITF2,Molise,T,Y30-34,15959
+ITE4,Lazio,T,Y_UN4,205160
+ITF4,Puglia,M,Y40-44,129849
+ITF4,Puglia,F,Y55-59,158332
+ITF3,Campania,T,Y30-34,340053
+ITC1,Piemonte,M,Y25-29,106327
+ITG2,Sardegna,F,Y5-9,27608
+ITF2,Molise,M,Y45-49,10815
+ITD4,Friuli-Venezia Giulia,F,Y65-69,38898
+ITC4,Lombardia,F,Y55-59,400403
+ITF4,Puglia,T,Y55-59,306532
+ITD5,Emilia-Romagna,T,Y75-79,202600
+ITE2,Umbria,T,Y70-74,53272
+ITC1,Piemonte,F,Y60-64,153739
+ITD2,Provincia Autonoma Trento,F,Y60-64,18859
+ITD4,Friuli-Venezia Giulia,M,Y60-64,41352
+ITF4,Puglia,F,Y60-64,139987
+ITF4,Puglia,F,Y_GE100,866
+ITE3,Marche,F,Y80-84,37293
+ITE2,Umbria,F,Y75-79,23126
+ITF1,Abruzzo,F,Y70-74,40918
+ITD3,Veneto,M,Y85-89,41396
+ITF3,Campania,T,Y85-89,96680
+ITD2,Provincia Autonoma Trento,M,Y35-39,15526
+ITC2,Valle d'Aosta / Vallée d'Aoste,M,Y20-24,3108
+ITD4,Friuli-Venezia Giulia,T,Y20-24,54650
+ITD5,Emilia-Romagna,M,Y20-24,108964
+ITF1,Abruzzo,F,Y40-44,41414
+ITC4,Lombardia,M,Y40-44,336230
+ITD4,Friuli-Venezia Giulia,M,Y40-44,37791
+ITF6,Calabria,F,Y40-44,60756
+ITF6,Calabria,M,Y45-49,65755
+ITC1,Piemonte,F,Y25-29,97465
+ITE3,Marche,F,Y45-49,57599
+ITE2,Umbria,M,Y95-99,726
+ITF6,Calabria,M,Y35-39,57276
+ITC1,Piemonte,T,Y_GE100,1380
+ITC3,Liguria,M,Y40-44,41973
+ITF3,Campania,T,Y40-44,375176
+ITG2,Sardegna,T,Y40-44,107865
+ITE3,Marche,T,Y60-64,104518
+ITC4,Lombardia,T,Y65-69,563699
+ITF6,Calabria,F,Y50-54,72455
+ITD4,Friuli-Venezia Giulia,F,Y70-74,39981
+ITG2,Sardegna,T,Y60-64,120469
+ITF1,Abruzzo,M,Y75-79,26077
+ITD5,Emilia-Romagna,F,Y80-84,104500
+ITE3,Marche,T,Y75-79,69805
+ITG1,Sicilia,M,Y75-79,89392
+ITG1,Sicilia,T,Y85-89,101908
+ITE3,Marche,F,Y90-94,13692
+ITD5,Emilia-Romagna,T,Y_GE100,1826
+ITC1,Piemonte,M,Y_GE100,181
+ITD3,Veneto,F,Y_GE100,1298
+ITF2,Molise,M,Y_GE100,30
+ITF3,Campania,M,Y_GE100,280
+ITD1,Provincia Autonoma Bolzano / Bozen,F,Y_UN4,12877
+ITF4,Puglia,T,Y10-14,187274
+ITD2,Provincia Autonoma Trento,M,Y15-19,14585
+ITF5,Basilicata,F,Y25-29,14009
+ITC2,Valle d'Aosta / Vallée d'Aoste,F,Y30-34,3045
+ITE2,Umbria,T,Y30-34,43573
+ITG2,Sardegna,F,Y30-34,39944
+ITD1,Provincia Autonoma Bolzano / Bozen,M,Y35-39,16049
+ITE4,Lazio,F,Y40-44,198823
+ITD4,Friuli-Venezia Giulia,M,Y45-49,46682
+ITF4,Puglia,F,Y45-49,152086
+ITF4,Puglia,T,Y50-54,306375
+ITG2,Sardegna,T,Y50-54,132986
+ITC1,Piemonte,F,Y55-59,175413
+ITD3,Veneto,M,Y75-79,102514
+ITE1,Toscana,F,Y95-99,9863
+ITC1,Piemonte,M,TOTAL,2073845
+ITC2,Valle d'Aosta / Vallée d'Aoste,F,Y_UN4,1974
+ITF5,Basilicata,F,Y_UN4,8679
+ITF6,Calabria,T,Y_UN4,72151
+ITC2,Valle d'Aosta / Vallée d'Aoste,T,Y5-9,5150
+ITD1,Provincia Autonoma Bolzano / Bozen,T,Y5-9,27939
+ITE1,Toscana,F,Y5-9,71341
+ITF6,Calabria,T,Y5-9,81025
+ITG2,Sardegna,T,Y5-9,57285
+ITC3,Liguria,F,Y10-14,30481
+ITE2,Umbria,M,Y10-14,20328
+ITC2,Valle d'Aosta / Vallée d'Aoste,M,Y15-19,3057
+ITC4,Lombardia,F,Y15-19,231709
+ITF5,Basilicata,F,Y15-19,12568
+ITF6,Calabria,F,Y15-19,44703
+ITG2,Sardegna,F,Y15-19,32716
+ITG2,Sardegna,T,Y15-19,67970
+ITC1,Piemonte,M,Y20-24,104460
+ITC3,Liguria,M,Y20-24,35211
+ITD2,Provincia Autonoma Trento,F,Y20-24,13791
+ITF4,Puglia,F,Y25-29,102654
+ITF5,Basilicata,T,Y25-29,29364
+ITE3,Marche,M,Y30-34,38887
+ITF5,Basilicata,F,Y30-34,14808
+ITF1,Abruzzo,F,Y35-39,37022
+ITC1,Piemonte,T,Y40-44,264116
+ITC2,Valle d'Aosta / Vallée d'Aoste,F,Y40-44,3724
+ITE3,Marche,M,Y40-44,48697
+ITF6,Calabria,M,Y40-44,60456
+ITC2,Valle d'Aosta / Vallée d'Aoste,M,Y45-49,4731
+ITE3,Marche,T,Y45-49,114750
+ITC3,Liguria,F,Y50-54,63891
+ITD5,Emilia-Romagna,M,Y50-54,183321
+ITE3,Marche,F,Y50-54,60560
+ITF1,Abruzzo,T,Y50-54,103162
+ITD1,Provincia Autonoma Bolzano / Bozen,M,Y55-59,21299
+ITE3,Marche,T,Y55-59,117856
+ITF1,Abruzzo,M,Y55-59,50561
+ITE2,Umbria,F,Y60-64,31061
+ITF6,Calabria,M,Y60-64,63779
+ITC3,Liguria,M,Y65-69,46270
+ITD2,Provincia Autonoma Trento,M,Y65-69,15788
+ITD2,Provincia Autonoma Trento,F,Y65-69,16191
+ITF6,Calabria,M,Y65-69,56780
+ITG1,Sicilia,F,Y65-69,154618
+ITG2,Sardegna,T,Y65-69,109315
+ITC3,Liguria,M,Y70-74,45159
+ITD5,Emilia-Romagna,T,Y70-74,249580
+ITE2,Umbria,F,Y70-74,28023
+ITF1,Abruzzo,M,Y70-74,36437
+ITF2,Molise,T,Y70-74,18448
+ITF5,Basilicata,F,Y70-74,16983
+ITC2,Valle d'Aosta / Vallée d'Aoste,M,Y80-84,2111
+ITC3,Liguria,M,Y80-84,31831
+ITD2,Provincia Autonoma Trento,F,Y80-84,11231
+ITF1,Abruzzo,M,Y80-84,21670
+ITF5,Basilicata,F,Y80-84,11853
+ITG2,Sardegna,T,Y80-84,62085
+ITD1,Provincia Autonoma Bolzano / Bozen,T,Y85-89,10507
+ITC4,Lombardia,F,Y90-94,74712
+ITE2,Umbria,T,Y90-94,12089
+ITF3,Campania,M,Y90-94,12579
+ITC2,Valle d'Aosta / Vallée d'Aoste,T,Y95-99,338
+ITF4,Puglia,T,Y95-99,9105
+ITF5,Basilicata,T,Y95-99,1574
+ITC2,Valle d'Aosta / Vallée d'Aoste,M,Y_GE100,6
+ITC3,Liguria,F,Y_GE100,704
+ITC4,Lombardia,F,Y_GE100,2609
+ITF4,Puglia,T,Y_GE100,1082
+ITD1,Provincia Autonoma Bolzano / Bozen,T,TOTAL,532616
+ITF3,Campania,M,TOTAL,2747577
+ITC1,Piemonte,F,Y_UN4,69956
+ITE1,Toscana,T,Y15-19,166996
+ITD1,Provincia Autonoma Bolzano / Bozen,M,Y5-9,14325
+ITD2,Provincia Autonoma Trento,F,Y5-9,12169
+ITF5,Basilicata,T,Y20-24,28248
+ITC3,Liguria,M,Y15-19,33358
+ITF2,Molise,F,Y30-34,7558
+ITC4,Lombardia,F,Y40-44,327060
+ITD5,Emilia-Romagna,T,Y40-44,293646
+ITE1,Toscana,T,Y50-54,302629
+ITG1,Sicilia,F,Y5-9,105691
+ITF4,Puglia,M,Y45-49,148116
+ITD5,Emilia-Romagna,T,Y60-64,300206
+ITG1,Sicilia,F,Y60-64,173002
+ITG1,Sicilia,F,Y55-59,189533
+ITF6,Calabria,F,Y65-69,59986
+ITC2,Valle d'Aosta / Vallée d'Aoste,M,Y70-74,3535
+ITF4,Puglia,M,Y70-74,107887
+ITC1,Piemonte,T,Y20-24,198483
+ITE2,Umbria,F,Y65-69,28026
+ITF5,Basilicata,M,Y65-69,17144
+ITE2,Umbria,T,Y50-54,68177
+ITC3,Liguria,M,Y30-34,36867
+ITG2,Sardegna,T,Y30-34,81987
+ITF5,Basilicata,F,Y85-89,8915
+ITC2,Valle d'Aosta / Vallée d'Aoste,F,Y90-94,1023
+ITF4,Puglia,T,Y70-74,230377
+ITE2,Umbria,F,Y50-54,35057
+ITD2,Provincia Autonoma Trento,F,Y95-99,1367
+ITE1,Toscana,F,Y_GE100,1282
+ITD2,Provincia Autonoma Trento,T,Y55-59,43015
+ITG2,Sardegna,M,TOTAL,778670
+ITC4,Lombardia,T,Y90-94,103392
+ITC3,Liguria,F,Y95-99,4921
+ITF5,Basilicata,M,Y95-99,413
+ITF4,Puglia,M,Y_GE100,216
+ITC3,Liguria,M,TOTAL,725821
+ITD3,Veneto,M,TOTAL,2380743
+ITF5,Basilicata,T,Y85-89,14428
+ITG2,Sardegna,T,Y95-99,4447
+ITD3,Veneto,M,Y_GE100,209
+ITC2,Valle d'Aosta / Vallée d'Aoste,F,Y5-9,2494
+ITE3,Marche,T,Y5-9,60982
+ITE3,Marche,M,Y_UN4,25526
+ITE1,Toscana,M,Y10-14,86223
+ITG2,Sardegna,F,Y25-29,34840
+ITF1,Abruzzo,M,Y30-34,35158
+ITG1,Sicilia,M,Y25-29,136053
+ITF1,Abruzzo,F,Y50-54,52398
+ITE1,Toscana,T,Y45-49,291270
+ITC2,Valle d'Aosta / Vallée d'Aoste,F,Y55-59,5257
+ITF1,Abruzzo,M,Y15-19,30047
+ITC3,Liguria,M,Y75-79,36682
+ITF5,Basilicata,T,Y75-79,21636
+ITD2,Provincia Autonoma Trento,T,Y25-29,29053
+ITE4,Lazio,M,Y75-79,107729
+ITE3,Marche,F,Y40-44,48917
+ITF2,Molise,F,Y90-94,2798
+ITD4,Friuli-Venezia Giulia,T,Y60-64,84473
+ITF5,Basilicata,M,Y_GE100,46
+ITF6,Calabria,F,Y90-94,12754
+ITD1,Provincia Autonoma Bolzano / Bozen,T,Y25-29,29765
+ITD2,Provincia Autonoma Trento,M,Y25-29,15010
+ITD3,Veneto,F,Y25-29,115566
+ITD4,Friuli-Venezia Giulia,M,Y95-99,844
+ITF6,Calabria,T,Y75-79,74911
+ITD3,Veneto,T,Y_GE100,1507
+ITG2,Sardegna,F,Y_GE100,480
+ITD5,Emilia-Romagna,M,Y80-84,77607
+ITD5,Emilia-Romagna,T,Y30-34,236667
+ITE4,Lazio,F,Y30-34,152310
+ITC2,Valle d'Aosta / Vallée d'Aoste,T,Y85-89,2882
+ITD1,Provincia Autonoma Bolzano / Bozen,M,Y40-44,16844
+ITF3,Campania,F,Y40-44,188873
+ITD2,Provincia Autonoma Trento,T,Y90-94,5941
+ITE2,Umbria,M,Y55-59,32923
+ITC4,Lombardia,T,TOTAL,9943004
+ITC2,Valle d'Aosta / Vallée d'Aoste,F,Y80-84,2932
+ITC3,Liguria,T,Y80-84,77585
+ITF4,Puglia,F,Y80-84,80729
+ITF2,Molise,M,Y90-94,1269
+ITC4,Lombardia,F,Y95-99,20279
+ITF5,Basilicata,F,TOTAL,274690
+ITC4,Lombardia,M,Y_UN4,190501
+ITC4,Lombardia,T,Y_UN4,370900
+ITF2,Molise,M,Y_UN4,4766
+ITG2,Sardegna,M,Y_UN4,23111
+ITD5,Emilia-Romagna,M,Y5-9,96847
+ITE1,Toscana,M,Y5-9,75387
+ITE2,Umbria,F,Y5-9,16992
+ITE4,Lazio,M,Y5-9,129154
+ITF1,Abruzzo,M,Y5-9,26948
+ITF6,Calabria,M,Y5-9,41677
+ITC1,Piemonte,F,Y10-14,93150
+ITC2,Valle d'Aosta / Vallée d'Aoste,T,Y10-14,6013
+ITC3,Liguria,M,Y10-14,31980
+ITC3,Liguria,T,Y10-14,62461
+ITC4,Lombardia,T,Y10-14,489753
+ITE4,Lazio,M,Y10-14,142934
+ITF1,Abruzzo,F,Y10-14,27946
+ITF3,Campania,F,Y10-14,143889
+ITC3,Liguria,T,Y15-19,64455
+ITE4,Lazio,T,Y15-19,269804
+ITF5,Basilicata,T,Y15-19,26157
+ITG1,Sicilia,F,Y15-19,122084
+ITD4,Friuli-Venezia Giulia,F,Y20-24,25718
+ITE3,Marche,F,Y20-24,33691
+ITF4,Puglia,F,Y20-24,101573
+ITC2,Valle d'Aosta / Vallée d'Aoste,F,Y25-29,2845
+ITC4,Lombardia,M,Y25-29,257558
+ITE3,Marche,M,Y25-29,37601
+ITG1,Sicilia,F,Y25-29,130633
+ITC3,Liguria,F,Y30-34,35193
+ITD1,Provincia Autonoma Bolzano / Bozen,F,Y30-34,14915
+ITD1,Provincia Autonoma Bolzano / Bozen,T,Y30-34,30719
+ITD3,Veneto,F,Y30-34,123716
+ITE1,Toscana,T,Y30-34,186880
+ITF1,Abruzzo,T,Y30-34,68712
+ITF5,Basilicata,M,Y30-34,16001
+ITG1,Sicilia,M,Y30-34,141851
+ITD1,Provincia Autonoma Bolzano / Bozen,T,Y35-39,31639
+ITD3,Veneto,M,Y35-39,133712
+ITD4,Friuli-Venezia Giulia,T,Y35-39,63232
+ITD5,Emilia-Romagna,M,Y35-39,127343
+ITE2,Umbria,F,Y35-39,24343
+ITE3,Marche,F,Y35-39,41376
+ITF2,Molise,F,Y35-39,7994
+ITF5,Basilicata,T,Y35-39,31449
+ITC1,Piemonte,M,Y40-44,132006
+ITE2,Umbria,F,Y40-44,28071
+ITF4,Puglia,T,Y40-44,261632
+ITG1,Sicilia,T,Y40-44,315759
+ITC1,Piemonte,T,Y45-49,328416
+ITD2,Provincia Autonoma Trento,T,Y45-49,40216
+ITD4,Friuli-Venezia Giulia,F,Y45-49,46509
+ITD5,Emilia-Romagna,F,Y45-49,179682
+ITE4,Lazio,F,Y45-49,239286
+ITF2,Molise,T,Y45-49,21409
+ITF5,Basilicata,M,Y45-49,19902
+ITD4,Friuli-Venezia Giulia,T,Y50-54,100272
+ITE3,Marche,T,Y50-54,119342
+ITF2,Molise,F,Y50-54,11587
+ITG1,Sicilia,F,Y50-54,190921
+ITC4,Lombardia,T,Y55-59,799700
+ITD4,Friuli-Venezia Giulia,F,Y55-59,50340
+ITE1,Toscana,F,Y55-59,151408
+ITE1,Toscana,T,Y55-59,296761
+ITE2,Umbria,T,Y55-59,68026
+ITE3,Marche,F,Y55-59,59667
+ITE4,Lazio,M,Y55-59,227319
+ITG2,Sardegna,F,Y55-59,68473
+ITC1,Piemonte,T,Y60-64,299649
+ITC2,Valle d'Aosta / Vallée d'Aoste,M,Y60-64,4302
+ITC2,Valle d'Aosta / Vallée d'Aoste,F,Y60-64,4455
+ITD1,Provincia Autonoma Bolzano / Bozen,M,Y60-64,16858
+ITD1,Provincia Autonoma Bolzano / Bozen,T,Y60-64,34006
+ITD3,Veneto,F,Y60-64,171767
+ITF1,Abruzzo,T,Y60-64,90365
+ITC1,Piemonte,F,Y65-69,139107
+ITC4,Lombardia,M,Y65-69,269276
+ITE3,Marche,T,Y65-69,92318
+ITF3,Campania,T,Y65-69,319709
+ITC2,Valle d'Aosta / Vallée d'Aoste,F,Y70-74,3841
+ITC3,Liguria,F,Y70-74,52762
+ITD1,Provincia Autonoma Bolzano / Bozen,M,Y70-74,11176
+ITD2,Provincia Autonoma Trento,F,Y70-74,15024
+ITE4,Lazio,F,Y70-74,168068
+ITF1,Abruzzo,T,Y70-74,77355
+ITF3,Campania,F,Y70-74,153601
+ITF6,Calabria,F,Y70-74,56357
+ITG1,Sicilia,T,Y70-74,274271
+ITG2,Sardegna,M,Y70-74,46726
+ITC2,Valle d'Aosta / Vallée d'Aoste,F,Y75-79,3026
+ITE3,Marche,M,Y75-79,31708
+ITF1,Abruzzo,T,Y75-79,56817
+ITF6,Calabria,M,Y75-79,34651
+ITF6,Calabria,F,Y75-79,40260
+ITG1,Sicilia,F,Y75-79,110285
+ITD1,Provincia Autonoma Bolzano / Bozen,M,Y80-84,7701
+ITD4,Friuli-Venezia Giulia,M,Y80-84,23223
+ITE2,Umbria,M,Y80-84,16486
+ITD3,Veneto,T,Y85-89,113442
+ITD4,Friuli-Venezia Giulia,M,Y85-89,11330
+ITF1,Abruzzo,F,Y85-89,20569
+ITF4,Puglia,M,Y85-89,32969
+ITF5,Basilicata,M,Y85-89,5513
+ITD1,Provincia Autonoma Bolzano / Bozen,F,Y90-94,3321
+ITD5,Emilia-Romagna,M,Y90-94,17144
+ITD5,Emilia-Romagna,F,Y90-94,37692
+ITF1,Abruzzo,T,Y90-94,15754
+ITG1,Sicilia,T,Y90-94,44271
+ITD3,Veneto,T,Y95-99,13450
+ITD5,Emilia-Romagna,M,Y95-99,3284
+ITC3,Liguria,T,Y_GE100,797
+ITF1,Abruzzo,M,Y_GE100,131
+ITF6,Calabria,F,Y_GE100,484
+ITC2,Valle d'Aosta / Vallée d'Aoste,F,TOTAL,62947
+ITC3,Liguria,F,TOTAL,783406
+ITC4,Lombardia,F,TOTAL,5061476
+ITF1,Abruzzo,T,TOTAL,1275950
+ITF6,Calabria,T,TOTAL,1855454
+ITG1,Sicilia,T,TOTAL,4833329
+ITD5,Emilia-Romagna,F,Y_UN4,76948
+ITE4,Lazio,M,Y_UN4,105389
+ITF1,Abruzzo,M,Y_UN4,22423
+ITF1,Abruzzo,F,Y_UN4,21381
+ITF2,Molise,F,Y_UN4,4478
+ITG1,Sicilia,F,Y_UN4,94855
+ITG1,Sicilia,T,Y_UN4,195396
+ITC2,Valle d'Aosta / Vallée d'Aoste,M,Y5-9,2656
+ITD2,Provincia Autonoma Trento,M,Y5-9,12932
+ITD4,Friuli-Venezia Giulia,T,Y5-9,46371
+ITD2,Provincia Autonoma Trento,F,Y10-14,13474
+ITE1,Toscana,F,Y10-14,80754
+ITE2,Umbria,F,Y10-14,19219
+ITE3,Marche,M,Y10-14,35604
+ITF6,Calabria,F,Y10-14,42751
+ITC4,Lombardia,M,Y15-19,248625
+ITD2,Provincia Autonoma Trento,T,Y15-19,27958
+ITD4,Friuli-Venezia Giulia,F,Y15-19,25781
+ITD5,Emilia-Romagna,F,Y15-19,97895
+ITE1,Toscana,M,Y15-19,86663
+ITE4,Lazio,F,Y15-19,130734
+ITC3,Liguria,F,Y20-24,31687
+ITC4,Lombardia,F,Y20-24,229702
+ITD1,Provincia Autonoma Bolzano / Bozen,M,Y20-24,15842
+ITD4,Friuli-Venezia Giulia,M,Y20-24,28932
+ITE1,Toscana,T,Y20-24,166209
+ITG1,Sicilia,F,Y20-24,123783
+ITE1,Toscana,F,Y25-29,82146
+ITF2,Molise,M,Y25-29,8081
+ITF4,Puglia,M,Y25-29,109035
+ITE2,Umbria,F,Y30-34,21520
+ITE3,Marche,F,Y30-34,37160
+ITF6,Calabria,F,Y30-34,54106
+ITC1,Piemonte,T,Y35-39,230362
+ITE2,Umbria,T,Y35-39,48269
+ITF4,Puglia,M,Y35-39,113031
+ITC1,Piemonte,F,Y40-44,132110
+ITC4,Lombardia,T,Y40-44,663290
+ITF1,Abruzzo,T,Y40-44,83908
+ITD2,Provincia Autonoma Trento,M,Y45-49,19918
+ITD3,Veneto,M,Y45-49,193786
+ITD2,Provincia Autonoma Trento,M,Y50-54,21372
+ITD5,Emilia-Romagna,F,Y50-54,184347
+ITD5,Emilia-Romagna,T,Y50-54,367668
+ITF5,Basilicata,T,Y50-54,42812
+ITD3,Veneto,T,Y55-59,404134
+ITF5,Basilicata,M,Y55-59,21602
+ITF5,Basilicata,F,Y55-59,22423
+ITC3,Liguria,T,Y60-64,111254
+ITC4,Lombardia,M,Y60-64,319355
+ITD1,Provincia Autonoma Bolzano / Bozen,F,Y60-64,17148
+ITF5,Basilicata,M,Y60-64,19162
+ITF5,Basilicata,F,Y60-64,20592
+ITC2,Valle d'Aosta / Vallée d'Aoste,F,Y65-69,3954
+ITD3,Veneto,T,Y65-69,287481
+ITE1,Toscana,T,Y65-69,222046
+ITE3,Marche,M,Y65-69,44144
+ITE3,Marche,F,Y65-69,48174
+ITE4,Lazio,T,Y70-74,311215
+ITF2,Molise,M,Y70-74,8849
+ITC1,Piemonte,M,Y75-79,94846
+ITC3,Liguria,F,Y75-79,46701
+ITD2,Provincia Autonoma Trento,T,Y75-79,23592
+ITG2,Sardegna,M,Y75-79,35374
+ITE1,Toscana,T,Y80-84,162885
+ITF3,Campania,F,Y80-84,95715
+ITF6,Calabria,F,Y80-84,35922
+ITC3,Liguria,F,Y85-89,31178
+ITG2,Sardegna,T,Y85-89,37918
+ITF4,Puglia,F,Y90-94,26308
+ITC2,Valle d'Aosta / Vallée d'Aoste,F,Y95-99,265
+ITD3,Veneto,M,Y95-99,2675
+ITF4,Puglia,M,Y95-99,2374
+ITC4,Lombardia,T,Y_GE100,2983
+ITD1,Provincia Autonoma Bolzano / Bozen,F,Y_GE100,121
+ITE4,Lazio,T,Y_GE100,1936
+ITG1,Sicilia,F,Y_GE100,1005
+ITG2,Sardegna,T,Y_GE100,598
+ITF5,Basilicata,M,TOTAL,266478
+ITF6,Calabria,F,TOTAL,946965
+ITG1,Sicilia,M,TOTAL,2353773
+ITG2,Sardegna,T,TOTAL,1587413
+ITF5,Basilicata,T,Y_UN4,18069
+ITE2,Umbria,F,Y_UN4,13710
+ITG2,Sardegna,T,Y_UN4,44958
+ITC4,Lombardia,M,Y5-9,226349
+ITE2,Umbria,M,Y5-9,17725
+ITG2,Sardegna,F,Y_UN4,21847
+ITG2,Sardegna,M,Y10-14,34511
+ITD5,Emilia-Romagna,M,Y25-29,112548
+ITC4,Lombardia,T,Y15-19,480334
+ITD5,Emilia-Romagna,M,Y15-19,105945
+ITC2,Valle d'Aosta / Vallée d'Aoste,T,Y15-19,5915
+ITE2,Umbria,M,Y15-19,20371
+ITE4,Lazio,M,Y20-24,139964
+ITF6,Calabria,F,Y20-24,46634
+ITD1,Provincia Autonoma Bolzano / Bozen,T,Y20-24,30416
+ITF3,Campania,M,Y25-29,166591
+ITD3,Veneto,F,Y35-39,133186
+ITD5,Emilia-Romagna,F,Y60-64,155161
+ITC2,Valle d'Aosta / Vallée d'Aoste,M,Y40-44,3835
+ITC3,Liguria,F,Y40-44,42876
+ITC4,Lombardia,T,Y45-49,798991
+ITF1,Abruzzo,T,Y45-49,96873
+ITD4,Friuli-Venezia Giulia,T,Y65-69,74200
+ITD2,Provincia Autonoma Trento,T,Y40-44,33539
+ITD3,Veneto,M,Y70-74,128420
+ITD3,Veneto,F,Y40-44,155007
+ITG2,Sardegna,M,Y40-44,54734
+ITG1,Sicilia,M,Y60-64,158140
+ITC4,Lombardia,F,Y50-54,409072
+ITE3,Marche,M,Y50-54,58782
+ITC3,Liguria,F,Y60-64,57512
+ITE3,Marche,F,Y60-64,53841
+ITE3,Marche,M,Y60-64,50677
+ITF3,Campania,T,Y80-84,162295
+ITD1,Provincia Autonoma Bolzano / Bozen,T,Y90-94,4900
+ITD3,Veneto,F,Y95-99,10775
+ITC4,Lombardia,F,Y75-79,243282
+ITC4,Lombardia,T,Y80-84,390966
+ITD1,Provincia Autonoma Bolzano / Bozen,T,Y80-84,17823
+ITC1,Piemonte,T,TOTAL,4256350
+ITE3,Marche,M,Y85-89,15843
+ITE2,Umbria,F,Y95-99,2545
+ITF6,Calabria,M,Y_GE100,139
+ITD1,Provincia Autonoma Bolzano / Bozen,F,Y20-24,14574
+ITC4,Lombardia,T,Y20-24,484758
+ITD5,Emilia-Romagna,F,Y25-29,104039
+ITG1,Sicilia,F,Y40-44,159007
+ITG1,Sicilia,T,Y55-59,367122
+ITD5,Emilia-Romagna,F,Y65-69,135459
+ITD3,Veneto,T,Y90-94,52082
+ITF2,Molise,T,Y35-39,16623
+ITC2,Valle d'Aosta / Vallée d'Aoste,M,Y50-54,5180
+ITD3,Veneto,F,Y50-54,204019
+ITF5,Basilicata,M,Y50-54,21102
+ITF2,Molise,T,Y55-59,23836
+ITF3,Campania,M,Y75-79,95626
+ITE4,Lazio,F,Y90-94,39937
+ITF5,Basilicata,T,Y90-94,6475
+ITD2,Provincia Autonoma Trento,F,TOTAL,274618
+ITE1,Toscana,T,Y_UN4,120662
+ITG1,Sicilia,M,Y_UN4,100541
+ITC2,Valle d'Aosta / Vallée d'Aoste,M,Y_UN4,2142
+ITC3,Liguria,F,Y_UN4,22217
+ITF2,Molise,T,Y5-9,10749
+ITF6,Calabria,T,Y10-14,87836
+ITF4,Puglia,M,Y5-9,84550
+ITF6,Calabria,M,Y15-19,48342
+ITC3,Liguria,T,Y25-29,68968
+ITE2,Umbria,T,Y25-29,40103
+ITF2,Molise,F,Y10-14,5792
+ITD3,Veneto,M,Y15-19,121444
+ITD2,Provincia Autonoma Trento,F,Y_UN4,10454
+ITF3,Campania,F,Y20-24,155041
+ITF6,Calabria,T,Y40-44,121212
+ITD2,Provincia Autonoma Trento,T,Y20-24,28683
+ITF4,Puglia,M,Y20-24,110637
+ITE4,Lazio,M,Y45-49,228238
+ITE4,Lazio,F,Y20-24,126970
+ITC1,Piemonte,M,Y30-34,111585
+ITE3,Marche,T,Y35-39,83122
+ITD4,Friuli-Venezia Giulia,F,Y35-39,31039
+ITE3,Marche,T,Y20-24,71316
+ITG1,Sicilia,F,Y35-39,143973
+ITF2,Molise,F,Y40-44,9094
+ITD3,Veneto,F,Y20-24,114657
+ITE1,Toscana,M,Y20-24,87551
+ITF3,Campania,M,Y20-24,167873
+ITD2,Provincia Autonoma Trento,M,Y70-74,14229
+ITF3,Campania,M,Y70-74,135824
+ITF5,Basilicata,F,Y40-44,16740
+ITE4,Lazio,T,Y25-29,280754
+ITD4,Friuli-Venezia Giulia,T,Y45-49,93191
+ITC2,Valle d'Aosta / Vallée d'Aoste,M,Y30-34,3136
+ITF5,Basilicata,T,Y55-59,44025
+ITF3,Campania,F,Y50-54,223522
+ITF3,Campania,F,Y60-64,194425
+ITG2,Sardegna,F,Y60-64,61862
+ITF3,Campania,M,Y60-64,179923
+ITG2,Sardegna,M,Y35-39,46305
+ITD3,Veneto,F,Y65-69,148498
+ITF1,Abruzzo,T,Y65-69,81021
+ITE2,Umbria,T,Y85-89,24822
+ITE4,Lazio,M,Y60-64,185798
+ITF2,Molise,F,Y65-69,10124
+ITD1,Provincia Autonoma Bolzano / Bozen,F,Y70-74,12626
+ITF1,Abruzzo,F,Y55-59,52263
+ITG1,Sicilia,M,Y55-59,177589
+ITG2,Sardegna,T,Y75-79,78069
+ITE2,Umbria,T,Y80-84,38589
+ITD2,Provincia Autonoma Trento,M,Y55-59,21403
+ITE2,Umbria,F,Y55-59,35103
+ITD3,Veneto,F,Y85-89,72046
+ITF1,Abruzzo,T,Y85-89,33211
+ITE1,Toscana,M,Y90-94,14934
+ITD1,Provincia Autonoma Bolzano / Bozen,F,Y85-89,6497
+ITC2,Valle d'Aosta / Vallée d'Aoste,T,Y70-74,7376
+ITF6,Calabria,T,Y70-74,108042
+ITC1,Piemonte,F,Y70-74,140117
+ITC2,Valle d'Aosta / Vallée d'Aoste,M,Y85-89,1024
+ITD4,Friuli-Venezia Giulia,M,TOTAL,582704
+ITE3,Marche,T,TOTAL,1487150
+ITD5,Emilia-Romagna,F,Y95-99,11544
+ITC4,Lombardia,T,Y95-99,25079
+ITF6,Calabria,M,Y95-99,1296
+ITC2,Valle d'Aosta / Vallée d'Aoste,F,Y_GE100,27
+ITF1,Abruzzo,F,Y80-84,28700
+ITG1,Sicilia,M,Y80-84,68840
+ITC2,Valle d'Aosta / Vallée d'Aoste,M,TOTAL,60413
+ITF6,Calabria,M,TOTAL,908489
+ITF6,Calabria,M,Y85-89,16544
+ITE1,Toscana,T,Y90-94,48504
+ITF3,Campania,T,Y90-94,41468
+ITD4,Friuli-Venezia Giulia,T,Y90-94,15046
+ITE4,Lazio,T,Y90-94,57863
+ITC4,Lombardia,M,Y_GE100,374
+ITF1,Abruzzo,M,TOTAL,624162
+ITD3,Veneto,F,Y_UN4,83906
+ITD4,Friuli-Venezia Giulia,M,Y15-19,27577
+ITG1,Sicilia,M,Y20-24,135701
+ITF6,Calabria,T,Y25-29,101343
+ITG2,Sardegna,T,Y35-39,91117
+ITE4,Lazio,T,Y40-44,394088
+ITF4,Puglia,M,Y50-54,149680
+ITD5,Emilia-Romagna,T,Y65-69,257117
+ITF2,Molise,M,Y75-79,5874
+ITF2,Molise,F,TOTAL,148137
+ITF4,Puglia,F,TOTAL,2012032
+ITF4,Puglia,T,Y_UN4,139855
+ITF4,Puglia,M,Y10-14,96440
+ITC1,Piemonte,M,Y_UN4,73170
+ITD2,Provincia Autonoma Trento,M,Y_UN4,11090
+ITF1,Abruzzo,T,Y5-9,52445
+ITC1,Piemonte,T,Y10-14,192372
+ITE3,Marche,F,Y10-14,33580
+ITD3,Veneto,T,Y15-19,234889
+ITC4,Lombardia,F,Y10-14,237043
+ITD4,Friuli-Venezia Giulia,F,Y10-14,25553
+ITG2,Sardegna,T,Y10-14,66820
+ITF1,Abruzzo,F,Y25-29,30816
+ITC1,Piemonte,T,Y30-34,217444
+ITD3,Veneto,T,Y_UN4,173177
+ITE1,Toscana,F,Y_UN4,58873
+ITC2,Valle d'Aosta / Vallée d'Aoste,T,Y30-34,6181
+ITE2,Umbria,M,Y30-34,22053
+ITG1,Sicilia,M,Y10-14,122170
+ITF3,Campania,M,Y40-44,186303
+ITD4,Friuli-Venezia Giulia,F,Y40-44,36017
+ITE2,Umbria,M,Y40-44,27434
+ITC4,Lombardia,F,Y45-49,394626
+ITD5,Emilia-Romagna,T,Y45-49,360008
+ITC1,Piemonte,F,Y35-39,114252
+ITD2,Provincia Autonoma Trento,F,Y45-49,20298
+ITD2,Provincia Autonoma Trento,M,Y60-64,18233
+ITE1,Toscana,M,Y60-64,122128
+ITE4,Lazio,T,Y30-34,309263
+ITD4,Friuli-Venezia Giulia,T,Y70-74,74797
+ITC2,Valle d'Aosta / Vallée d'Aoste,M,Y35-39,3322
+ITD2,Provincia Autonoma Trento,M,Y75-79,10862
+ITF4,Puglia,M,Y75-79,79020
+ITC3,Liguria,T,Y65-69,97097
+ITC2,Valle d'Aosta / Vallée d'Aoste,F,Y50-54,5400
+ITC4,Lombardia,M,Y50-54,417182
+ITE4,Lazio,M,Y50-54,233828
+ITC2,Valle d'Aosta / Vallée d'Aoste,T,Y80-84,5043
+ITF2,Molise,T,Y85-89,8498
+ITF4,Puglia,M,Y55-59,148200
+ITD4,Friuli-Venezia Giulia,F,Y90-94,10866
+ITE2,Umbria,M,Y90-94,3650
+ITF6,Calabria,F,Y95-99,3461
+ITF4,Puglia,T,Y85-89,86554
+ITE2,Umbria,F,TOTAL,443617
+ITF2,Molise,T,Y_GE100,154
+ITD4,Friuli-Venezia Giulia,T,Y_GE100,605
+ITF2,Molise,F,Y95-99,852
+ITF3,Campania,F,Y95-99,7156
+ITC3,Liguria,T,Y75-79,83383
+ITF4,Puglia,F,Y75-79,95906
+ITC1,Piemonte,F,Y_GE100,1199
+ITD4,Friuli-Venezia Giulia,T,Y95-99,4394
+ITD1,Provincia Autonoma Bolzano / Bozen,T,Y_GE100,141
+ITC2,Valle d'Aosta / Vallée d'Aoste,T,TOTAL,123360
+ITF4,Puglia,M,Y_UN4,72099
+ITE4,Lazio,M,Y15-19,139070
+ITC4,Lombardia,T,Y50-54,826254
+ITD3,Veneto,T,Y80-84,190013
+ITF2,Molise,M,Y85-89,3143
+ITE4,Lazio,F,Y_GE100,1570
+ITF2,Molise,T,Y15-19,13012
+ITF1,Abruzzo,T,Y35-39,74888
+ITE2,Umbria,F,Y45-49,33683
+ITF6,Calabria,F,Y60-64,67793
+ITE1,Toscana,T,Y70-74,222755
+ITF3,Campania,T,Y70-74,289425
+ITE2,Umbria,M,Y_UN4,14445
+ITD5,Emilia-Romagna,F,Y5-9,91602
+ITF4,Puglia,F,Y5-9,79595
+ITD3,Veneto,M,Y10-14,119634
+ITF5,Basilicata,T,Y10-14,23366
+ITF4,Puglia,T,Y15-19,201198
+ITD2,Provincia Autonoma Trento,M,Y20-24,14892
+ITD3,Veneto,T,Y20-24,239649
+ITE1,Toscana,F,Y20-24,78658
+ITF2,Molise,F,Y20-24,6773
+ITF6,Calabria,T,Y20-24,96894
+ITF6,Calabria,F,Y25-29,49355
+ITE1,Toscana,T,Y35-39,202676
+ITE4,Lazio,M,Y35-39,173140
+ITF6,Calabria,T,Y35-39,113337
+ITF5,Basilicata,M,Y40-44,17204
+ITC1,Piemonte,F,Y45-49,164566
+ITD1,Provincia Autonoma Bolzano / Bozen,M,Y45-49,19163
+ITE4,Lazio,T,Y45-49,467524
+ITE1,Toscana,F,Y50-54,153497
+ITG2,Sardegna,M,Y50-54,66096
+ITD1,Provincia Autonoma Bolzano / Bozen,F,Y55-59,20825
+ITD5,Emilia-Romagna,M,Y55-59,173459
+ITD3,Veneto,M,Y60-64,166139
+ITD5,Emilia-Romagna,M,Y60-64,145045
+ITF4,Puglia,M,Y60-64,128405
+ITC3,Liguria,F,Y65-69,50827
+ITE4,Lazio,M,Y65-69,156776
+ITF1,Abruzzo,M,Y65-69,38937
+ITF5,Basilicata,F,Y65-69,18191
+ITE1,Toscana,F,Y75-79,100853
+ITD2,Provincia Autonoma Trento,T,Y85-89,11840
+ITG2,Sardegna,T,Y90-94,17679
+ITF4,Puglia,F,Y95-99,6731
+ITD4,Friuli-Venezia Giulia,T,TOTAL,1194647
+ITD5,Emilia-Romagna,M,TOTAL,2163535
+ITDA,Trentino Alto Adige / Südtirol,M,Y65-69,28665
+ITDA,Trentino Alto Adige / Südtirol,T,Y85-89,22347
+ITDA,Trentino Alto Adige / Südtirol,T,Y90-94,10841
+ITDA,Trentino Alto Adige / Südtirol,F,Y_GE100,299
+ITDA,Trentino Alto Adige / Südtirol,M,TOTAL,530469
+ITDA,Trentino Alto Adige / Südtirol,F,Y20-24,28365
+ITDA,Trentino Alto Adige / Südtirol,F,Y35-39,30697
+ITDA,Trentino Alto Adige / Südtirol,T,Y40-44,67271
+ITDA,Trentino Alto Adige / Südtirol,M,Y45-49,39081
+ITDA,Trentino Alto Adige / Südtirol,F,Y45-49,39770
+ITDA,Trentino Alto Adige / Südtirol,M,Y50-54,43048
+ITDA,Trentino Alto Adige / Südtirol,T,Y95-99,2940
+ITDA,Trentino Alto Adige / Südtirol,T,Y25-29,58818
+ITDA,Trentino Alto Adige / Südtirol,M,Y15-19,29607
+ITDA,Trentino Alto Adige / Südtirol,M,Y20-24,30734
+ITDA,Trentino Alto Adige / Südtirol,F,Y75-79,24657
+ITDA,Trentino Alto Adige / Südtirol,F,Y40-44,33671
+ITDA,Trentino Alto Adige / Südtirol,M,Y5-9,27257
+ITDA,Trentino Alto Adige / Südtirol,F,Y25-29,28349
+ITDA,Trentino Alto Adige / Südtirol,M,Y85-89,8269
+ITDA,Trentino Alto Adige / Südtirol,T,Y_GE100,350
+ITDA,Trentino Alto Adige / Südtirol,F,Y70-74,27650
+ITDA,Trentino Alto Adige / Südtirol,M,Y35-39,31575
+ITDA,Trentino Alto Adige / Südtirol,M,Y95-99,613
+ITDA,Trentino Alto Adige / Südtirol,M,Y_UN4,24740
+ITDA,Trentino Alto Adige / Südtirol,T,Y65-69,58616
+ITDA,Trentino Alto Adige / Südtirol,T,Y_UN4,48071
+ITDA,Trentino Alto Adige / Südtirol,T,Y5-9,53040
+ITDA,Trentino Alto Adige / Südtirol,F,Y15-19,27326
+ITDA,Trentino Alto Adige / Südtirol,T,Y80-84,37235
+ITDA,Trentino Alto Adige / Südtirol,T,TOTAL,1073574
+ITDA,Trentino Alto Adige / Südtirol,M,Y10-14,28816
+ITDA,Trentino Alto Adige / Südtirol,T,Y10-14,55876
+ITDA,Trentino Alto Adige / Südtirol,M,Y55-59,42702
+ITDA,Trentino Alto Adige / Südtirol,M,Y60-64,35091
+ITDA,Trentino Alto Adige / Südtirol,F,Y80-84,21353
+ITDA,Trentino Alto Adige / Südtirol,F,Y90-94,7571
+ITDA,Trentino Alto Adige / Südtirol,F,TOTAL,543105
+ITDA,Trentino Alto Adige / Südtirol,F,Y65-69,29951
+ITDA,Trentino Alto Adige / Südtirol,F,Y85-89,14078
+ITDA,Trentino Alto Adige / Südtirol,T,Y50-54,85953
+ITDA,Trentino Alto Adige / Südtirol,T,Y75-79,45310
+ITDA,Trentino Alto Adige / Südtirol,F,Y95-99,2327
+ITDA,Trentino Alto Adige / Südtirol,M,Y40-44,33600
+ITDA,Trentino Alto Adige / Südtirol,F,Y_UN4,23331
+ITDA,Trentino Alto Adige / Südtirol,F,Y5-9,25783
+ITDA,Trentino Alto Adige / Südtirol,T,Y45-49,78851
+ITDA,Trentino Alto Adige / Südtirol,M,Y30-34,30941
+ITDA,Trentino Alto Adige / Südtirol,T,Y35-39,62272
+ITDA,Trentino Alto Adige / Südtirol,T,Y55-59,85139
+ITDA,Trentino Alto Adige / Südtirol,M,Y75-79,20653
+ITDA,Trentino Alto Adige / Südtirol,M,Y90-94,3270
+ITDA,Trentino Alto Adige / Südtirol,F,Y55-59,42437
+ITDA,Trentino Alto Adige / Südtirol,T,Y60-64,71098
+ITDA,Trentino Alto Adige / Südtirol,T,Y15-19,56933
+ITDA,Trentino Alto Adige / Südtirol,M,Y_GE100,51
+ITDA,Trentino Alto Adige / Südtirol,T,Y30-34,60459
+ITDA,Trentino Alto Adige / Südtirol,T,Y70-74,53055
+ITDA,Trentino Alto Adige / Südtirol,F,Y60-64,36007
+ITDA,Trentino Alto Adige / Südtirol,F,Y10-14,27060
+ITDA,Trentino Alto Adige / Südtirol,M,Y25-29,30469
+ITDA,Trentino Alto Adige / Südtirol,F,Y30-34,29518
+ITDA,Trentino Alto Adige / Südtirol,T,Y20-24,59099
+ITDA,Trentino Alto Adige / Südtirol,M,Y70-74,25405
+ITDA,Trentino Alto Adige / Südtirol,M,Y80-84,15882
+ITDA,Trentino Alto Adige / Südtirol,F,Y50-54,42905
