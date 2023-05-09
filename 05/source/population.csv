@@ -1055,72 +1055,72 @@ ITE1,Toscana,F,Y20-24,78658
 ITE1,Toscana,T,Y35-39,202676
 ITE1,Toscana,F,Y50-54,153497
 ITE1,Toscana,F,Y75-79,100853
-ITDA,Trentino Alto Adige / Südtirol,M,Y65-69,28665
-ITDA,Trentino Alto Adige / Südtirol,T,Y85-89,22347
-ITDA,Trentino Alto Adige / Südtirol,T,Y90-94,10841
-ITDA,Trentino Alto Adige / Südtirol,F,Y_GE100,299
-ITDA,Trentino Alto Adige / Südtirol,M,TOTAL,530469
-ITDA,Trentino Alto Adige / Südtirol,F,Y20-24,28365
-ITDA,Trentino Alto Adige / Südtirol,F,Y35-39,30697
-ITDA,Trentino Alto Adige / Südtirol,T,Y40-44,67271
-ITDA,Trentino Alto Adige / Südtirol,M,Y45-49,39081
-ITDA,Trentino Alto Adige / Südtirol,F,Y45-49,39770
-ITDA,Trentino Alto Adige / Südtirol,M,Y50-54,43048
-ITDA,Trentino Alto Adige / Südtirol,T,Y95-99,2940
-ITDA,Trentino Alto Adige / Südtirol,T,Y25-29,58818
-ITDA,Trentino Alto Adige / Südtirol,M,Y15-19,29607
-ITDA,Trentino Alto Adige / Südtirol,M,Y20-24,30734
-ITDA,Trentino Alto Adige / Südtirol,F,Y75-79,24657
-ITDA,Trentino Alto Adige / Südtirol,F,Y40-44,33671
-ITDA,Trentino Alto Adige / Südtirol,M,Y5-9,27257
-ITDA,Trentino Alto Adige / Südtirol,F,Y25-29,28349
-ITDA,Trentino Alto Adige / Südtirol,M,Y85-89,8269
-ITDA,Trentino Alto Adige / Südtirol,T,Y_GE100,350
-ITDA,Trentino Alto Adige / Südtirol,F,Y70-74,27650
-ITDA,Trentino Alto Adige / Südtirol,M,Y35-39,31575
-ITDA,Trentino Alto Adige / Südtirol,M,Y95-99,613
-ITDA,Trentino Alto Adige / Südtirol,M,Y_UN4,24740
-ITDA,Trentino Alto Adige / Südtirol,T,Y65-69,58616
-ITDA,Trentino Alto Adige / Südtirol,T,Y_UN4,48071
-ITDA,Trentino Alto Adige / Südtirol,T,Y5-9,53040
-ITDA,Trentino Alto Adige / Südtirol,F,Y15-19,27326
-ITDA,Trentino Alto Adige / Südtirol,T,Y80-84,37235
-ITDA,Trentino Alto Adige / Südtirol,T,TOTAL,1073574
-ITDA,Trentino Alto Adige / Südtirol,M,Y10-14,28816
-ITDA,Trentino Alto Adige / Südtirol,T,Y10-14,55876
-ITDA,Trentino Alto Adige / Südtirol,M,Y55-59,42702
-ITDA,Trentino Alto Adige / Südtirol,M,Y60-64,35091
-ITDA,Trentino Alto Adige / Südtirol,F,Y80-84,21353
-ITDA,Trentino Alto Adige / Südtirol,F,Y90-94,7571
-ITDA,Trentino Alto Adige / Südtirol,F,TOTAL,543105
-ITDA,Trentino Alto Adige / Südtirol,F,Y65-69,29951
-ITDA,Trentino Alto Adige / Südtirol,F,Y85-89,14078
-ITDA,Trentino Alto Adige / Südtirol,T,Y50-54,85953
-ITDA,Trentino Alto Adige / Südtirol,T,Y75-79,45310
-ITDA,Trentino Alto Adige / Südtirol,F,Y95-99,2327
-ITDA,Trentino Alto Adige / Südtirol,M,Y40-44,33600
-ITDA,Trentino Alto Adige / Südtirol,F,Y_UN4,23331
-ITDA,Trentino Alto Adige / Südtirol,F,Y5-9,25783
-ITDA,Trentino Alto Adige / Südtirol,T,Y45-49,78851
-ITDA,Trentino Alto Adige / Südtirol,M,Y30-34,30941
-ITDA,Trentino Alto Adige / Südtirol,T,Y35-39,62272
-ITDA,Trentino Alto Adige / Südtirol,T,Y55-59,85139
-ITDA,Trentino Alto Adige / Südtirol,M,Y75-79,20653
-ITDA,Trentino Alto Adige / Südtirol,M,Y90-94,3270
-ITDA,Trentino Alto Adige / Südtirol,F,Y55-59,42437
-ITDA,Trentino Alto Adige / Südtirol,T,Y60-64,71098
-ITDA,Trentino Alto Adige / Südtirol,T,Y15-19,56933
-ITDA,Trentino Alto Adige / Südtirol,M,Y_GE100,51
-ITDA,Trentino Alto Adige / Südtirol,T,Y30-34,60459
-ITDA,Trentino Alto Adige / Südtirol,T,Y70-74,53055
-ITDA,Trentino Alto Adige / Südtirol,F,Y60-64,36007
-ITDA,Trentino Alto Adige / Südtirol,F,Y10-14,27060
-ITDA,Trentino Alto Adige / Südtirol,M,Y25-29,30469
-ITDA,Trentino Alto Adige / Südtirol,F,Y30-34,29518
-ITDA,Trentino Alto Adige / Südtirol,T,Y20-24,59099
-ITDA,Trentino Alto Adige / Südtirol,M,Y70-74,25405
-ITDA,Trentino Alto Adige / Südtirol,M,Y80-84,15882
-ITDA,Trentino Alto Adige / Südtirol,F,Y50-54,42905
+ITDA,Trentino Alto Adige,M,Y65-69,28665
+ITDA,Trentino Alto Adige,T,Y85-89,22347
+ITDA,Trentino Alto Adige,T,Y90-94,10841
+ITDA,Trentino Alto Adige,F,Y_GE100,299
+ITDA,Trentino Alto Adige,M,TOTAL,530469
+ITDA,Trentino Alto Adige,F,Y20-24,28365
+ITDA,Trentino Alto Adige,F,Y35-39,30697
+ITDA,Trentino Alto Adige,T,Y40-44,67271
+ITDA,Trentino Alto Adige,M,Y45-49,39081
+ITDA,Trentino Alto Adige,F,Y45-49,39770
+ITDA,Trentino Alto Adige,M,Y50-54,43048
+ITDA,Trentino Alto Adige,T,Y95-99,2940
+ITDA,Trentino Alto Adige,T,Y25-29,58818
+ITDA,Trentino Alto Adige,M,Y15-19,29607
+ITDA,Trentino Alto Adige,M,Y20-24,30734
+ITDA,Trentino Alto Adige,F,Y75-79,24657
+ITDA,Trentino Alto Adige,F,Y40-44,33671
+ITDA,Trentino Alto Adige,M,Y5-9,27257
+ITDA,Trentino Alto Adige,F,Y25-29,28349
+ITDA,Trentino Alto Adige,M,Y85-89,8269
+ITDA,Trentino Alto Adige,T,Y_GE100,350
+ITDA,Trentino Alto Adige,F,Y70-74,27650
+ITDA,Trentino Alto Adige,M,Y35-39,31575
+ITDA,Trentino Alto Adige,M,Y95-99,613
+ITDA,Trentino Alto Adige,M,Y_UN4,24740
+ITDA,Trentino Alto Adige,T,Y65-69,58616
+ITDA,Trentino Alto Adige,T,Y_UN4,48071
+ITDA,Trentino Alto Adige,T,Y5-9,53040
+ITDA,Trentino Alto Adige,F,Y15-19,27326
+ITDA,Trentino Alto Adige,T,Y80-84,37235
+ITDA,Trentino Alto Adige,T,TOTAL,1073574
+ITDA,Trentino Alto Adige,M,Y10-14,28816
+ITDA,Trentino Alto Adige,T,Y10-14,55876
+ITDA,Trentino Alto Adige,M,Y55-59,42702
+ITDA,Trentino Alto Adige,M,Y60-64,35091
+ITDA,Trentino Alto Adige,F,Y80-84,21353
+ITDA,Trentino Alto Adige,F,Y90-94,7571
+ITDA,Trentino Alto Adige,F,TOTAL,543105
+ITDA,Trentino Alto Adige,F,Y65-69,29951
+ITDA,Trentino Alto Adige,F,Y85-89,14078
+ITDA,Trentino Alto Adige,T,Y50-54,85953
+ITDA,Trentino Alto Adige,T,Y75-79,45310
+ITDA,Trentino Alto Adige,F,Y95-99,2327
+ITDA,Trentino Alto Adige,M,Y40-44,33600
+ITDA,Trentino Alto Adige,F,Y_UN4,23331
+ITDA,Trentino Alto Adige,F,Y5-9,25783
+ITDA,Trentino Alto Adige,T,Y45-49,78851
+ITDA,Trentino Alto Adige,M,Y30-34,30941
+ITDA,Trentino Alto Adige,T,Y35-39,62272
+ITDA,Trentino Alto Adige,T,Y55-59,85139
+ITDA,Trentino Alto Adige,M,Y75-79,20653
+ITDA,Trentino Alto Adige,M,Y90-94,3270
+ITDA,Trentino Alto Adige,F,Y55-59,42437
+ITDA,Trentino Alto Adige,T,Y60-64,71098
+ITDA,Trentino Alto Adige,T,Y15-19,56933
+ITDA,Trentino Alto Adige,M,Y_GE100,51
+ITDA,Trentino Alto Adige,T,Y30-34,60459
+ITDA,Trentino Alto Adige,T,Y70-74,53055
+ITDA,Trentino Alto Adige,F,Y60-64,36007
+ITDA,Trentino Alto Adige,F,Y10-14,27060
+ITDA,Trentino Alto Adige,M,Y25-29,30469
+ITDA,Trentino Alto Adige,F,Y30-34,29518
+ITDA,Trentino Alto Adige,T,Y20-24,59099
+ITDA,Trentino Alto Adige,M,Y70-74,25405
+ITDA,Trentino Alto Adige,M,Y80-84,15882
+ITDA,Trentino Alto Adige,F,Y50-54,42905
 ITE2,Umbria,T,Y10-14,39547
 ITE2,Umbria,M,Y35-39,23926
 ITE2,Umbria,T,Y45-49,65936
@@ -1187,72 +1187,72 @@ ITE2,Umbria,M,Y90-94,3650
 ITE2,Umbria,F,TOTAL,443617
 ITE2,Umbria,F,Y45-49,33683
 ITE2,Umbria,M,Y_UN4,14445
-ITC2,Valle d'Aosta / Vallée d'Aoste,F,Y10-14,2909
-ITC2,Valle d'Aosta / Vallée d'Aoste,T,Y25-29,5885
-ITC2,Valle d'Aosta / Vallée d'Aoste,M,Y95-99,73
-ITC2,Valle d'Aosta / Vallée d'Aoste,T,Y60-64,8757
-ITC2,Valle d'Aosta / Vallée d'Aoste,T,Y_GE100,33
-ITC2,Valle d'Aosta / Vallée d'Aoste,M,Y90-94,399
-ITC2,Valle d'Aosta / Vallée d'Aoste,F,Y15-19,2858
-ITC2,Valle d'Aosta / Vallée d'Aoste,T,Y90-94,1422
-ITC2,Valle d'Aosta / Vallée d'Aoste,M,Y55-59,5247
-ITC2,Valle d'Aosta / Vallée d'Aoste,F,Y45-49,4891
-ITC2,Valle d'Aosta / Vallée d'Aoste,T,Y65-69,7697
-ITC2,Valle d'Aosta / Vallée d'Aoste,T,Y40-44,7559
-ITC2,Valle d'Aosta / Vallée d'Aoste,T,Y55-59,10504
-ITC2,Valle d'Aosta / Vallée d'Aoste,T,Y75-79,5688
-ITC2,Valle d'Aosta / Vallée d'Aoste,F,Y85-89,1858
-ITC2,Valle d'Aosta / Vallée d'Aoste,M,Y25-29,3040
-ITC2,Valle d'Aosta / Vallée d'Aoste,T,Y35-39,6634
-ITC2,Valle d'Aosta / Vallée d'Aoste,M,Y65-69,3743
-ITC2,Valle d'Aosta / Vallée d'Aoste,T,Y50-54,10580
-ITC2,Valle d'Aosta / Vallée d'Aoste,T,Y45-49,9622
-ITC2,Valle d'Aosta / Vallée d'Aoste,M,Y75-79,2662
-ITC2,Valle d'Aosta / Vallée d'Aoste,T,Y20-24,5965
-ITC2,Valle d'Aosta / Vallée d'Aoste,T,Y_UN4,4116
-ITC2,Valle d'Aosta / Vallée d'Aoste,M,Y10-14,3104
-ITC2,Valle d'Aosta / Vallée d'Aoste,F,Y20-24,2857
-ITC2,Valle d'Aosta / Vallée d'Aoste,F,Y35-39,3312
-ITC2,Valle d'Aosta / Vallée d'Aoste,M,Y20-24,3108
-ITC2,Valle d'Aosta / Vallée d'Aoste,F,Y30-34,3045
-ITC2,Valle d'Aosta / Vallée d'Aoste,F,Y_UN4,1974
-ITC2,Valle d'Aosta / Vallée d'Aoste,T,Y5-9,5150
-ITC2,Valle d'Aosta / Vallée d'Aoste,M,Y15-19,3057
-ITC2,Valle d'Aosta / Vallée d'Aoste,F,Y40-44,3724
-ITC2,Valle d'Aosta / Vallée d'Aoste,M,Y45-49,4731
-ITC2,Valle d'Aosta / Vallée d'Aoste,M,Y80-84,2111
-ITC2,Valle d'Aosta / Vallée d'Aoste,T,Y95-99,338
-ITC2,Valle d'Aosta / Vallée d'Aoste,M,Y_GE100,6
-ITC2,Valle d'Aosta / Vallée d'Aoste,M,Y70-74,3535
-ITC2,Valle d'Aosta / Vallée d'Aoste,F,Y90-94,1023
-ITC2,Valle d'Aosta / Vallée d'Aoste,F,Y5-9,2494
-ITC2,Valle d'Aosta / Vallée d'Aoste,F,Y55-59,5257
-ITC2,Valle d'Aosta / Vallée d'Aoste,T,Y85-89,2882
-ITC2,Valle d'Aosta / Vallée d'Aoste,F,Y80-84,2932
-ITC2,Valle d'Aosta / Vallée d'Aoste,T,Y10-14,6013
-ITC2,Valle d'Aosta / Vallée d'Aoste,F,Y25-29,2845
-ITC2,Valle d'Aosta / Vallée d'Aoste,M,Y60-64,4302
-ITC2,Valle d'Aosta / Vallée d'Aoste,F,Y60-64,4455
-ITC2,Valle d'Aosta / Vallée d'Aoste,F,Y70-74,3841
-ITC2,Valle d'Aosta / Vallée d'Aoste,F,Y75-79,3026
-ITC2,Valle d'Aosta / Vallée d'Aoste,F,TOTAL,62947
-ITC2,Valle d'Aosta / Vallée d'Aoste,M,Y5-9,2656
-ITC2,Valle d'Aosta / Vallée d'Aoste,F,Y65-69,3954
-ITC2,Valle d'Aosta / Vallée d'Aoste,F,Y95-99,265
-ITC2,Valle d'Aosta / Vallée d'Aoste,T,Y15-19,5915
-ITC2,Valle d'Aosta / Vallée d'Aoste,M,Y40-44,3835
-ITC2,Valle d'Aosta / Vallée d'Aoste,M,Y50-54,5180
-ITC2,Valle d'Aosta / Vallée d'Aoste,M,Y_UN4,2142
-ITC2,Valle d'Aosta / Vallée d'Aoste,M,Y30-34,3136
-ITC2,Valle d'Aosta / Vallée d'Aoste,T,Y70-74,7376
-ITC2,Valle d'Aosta / Vallée d'Aoste,M,Y85-89,1024
-ITC2,Valle d'Aosta / Vallée d'Aoste,F,Y_GE100,27
-ITC2,Valle d'Aosta / Vallée d'Aoste,M,TOTAL,60413
-ITC2,Valle d'Aosta / Vallée d'Aoste,T,Y30-34,6181
-ITC2,Valle d'Aosta / Vallée d'Aoste,M,Y35-39,3322
-ITC2,Valle d'Aosta / Vallée d'Aoste,F,Y50-54,5400
-ITC2,Valle d'Aosta / Vallée d'Aoste,T,Y80-84,5043
-ITC2,Valle d'Aosta / Vallée d'Aoste,T,TOTAL,123360
+ITC2,Valle d'Aosta,F,Y10-14,2909
+ITC2,Valle d'Aosta,T,Y25-29,5885
+ITC2,Valle d'Aosta,M,Y95-99,73
+ITC2,Valle d'Aosta,T,Y60-64,8757
+ITC2,Valle d'Aosta,T,Y_GE100,33
+ITC2,Valle d'Aosta,M,Y90-94,399
+ITC2,Valle d'Aosta,F,Y15-19,2858
+ITC2,Valle d'Aosta,T,Y90-94,1422
+ITC2,Valle d'Aosta,M,Y55-59,5247
+ITC2,Valle d'Aosta,F,Y45-49,4891
+ITC2,Valle d'Aosta,T,Y65-69,7697
+ITC2,Valle d'Aosta,T,Y40-44,7559
+ITC2,Valle d'Aosta,T,Y55-59,10504
+ITC2,Valle d'Aosta,T,Y75-79,5688
+ITC2,Valle d'Aosta,F,Y85-89,1858
+ITC2,Valle d'Aosta,M,Y25-29,3040
+ITC2,Valle d'Aosta,T,Y35-39,6634
+ITC2,Valle d'Aosta,M,Y65-69,3743
+ITC2,Valle d'Aosta,T,Y50-54,10580
+ITC2,Valle d'Aosta,T,Y45-49,9622
+ITC2,Valle d'Aosta,M,Y75-79,2662
+ITC2,Valle d'Aosta,T,Y20-24,5965
+ITC2,Valle d'Aosta,T,Y_UN4,4116
+ITC2,Valle d'Aosta,M,Y10-14,3104
+ITC2,Valle d'Aosta,F,Y20-24,2857
+ITC2,Valle d'Aosta,F,Y35-39,3312
+ITC2,Valle d'Aosta,M,Y20-24,3108
+ITC2,Valle d'Aosta,F,Y30-34,3045
+ITC2,Valle d'Aosta,F,Y_UN4,1974
+ITC2,Valle d'Aosta,T,Y5-9,5150
+ITC2,Valle d'Aosta,M,Y15-19,3057
+ITC2,Valle d'Aosta,F,Y40-44,3724
+ITC2,Valle d'Aosta,M,Y45-49,4731
+ITC2,Valle d'Aosta,M,Y80-84,2111
+ITC2,Valle d'Aosta,T,Y95-99,338
+ITC2,Valle d'Aosta,M,Y_GE100,6
+ITC2,Valle d'Aosta,M,Y70-74,3535
+ITC2,Valle d'Aosta,F,Y90-94,1023
+ITC2,Valle d'Aosta,F,Y5-9,2494
+ITC2,Valle d'Aosta,F,Y55-59,5257
+ITC2,Valle d'Aosta,T,Y85-89,2882
+ITC2,Valle d'Aosta,F,Y80-84,2932
+ITC2,Valle d'Aosta,T,Y10-14,6013
+ITC2,Valle d'Aosta,F,Y25-29,2845
+ITC2,Valle d'Aosta,M,Y60-64,4302
+ITC2,Valle d'Aosta,F,Y60-64,4455
+ITC2,Valle d'Aosta,F,Y70-74,3841
+ITC2,Valle d'Aosta,F,Y75-79,3026
+ITC2,Valle d'Aosta,F,TOTAL,62947
+ITC2,Valle d'Aosta,M,Y5-9,2656
+ITC2,Valle d'Aosta,F,Y65-69,3954
+ITC2,Valle d'Aosta,F,Y95-99,265
+ITC2,Valle d'Aosta,T,Y15-19,5915
+ITC2,Valle d'Aosta,M,Y40-44,3835
+ITC2,Valle d'Aosta,M,Y50-54,5180
+ITC2,Valle d'Aosta,M,Y_UN4,2142
+ITC2,Valle d'Aosta,M,Y30-34,3136
+ITC2,Valle d'Aosta,T,Y70-74,7376
+ITC2,Valle d'Aosta,M,Y85-89,1024
+ITC2,Valle d'Aosta,F,Y_GE100,27
+ITC2,Valle d'Aosta,M,TOTAL,60413
+ITC2,Valle d'Aosta,T,Y30-34,6181
+ITC2,Valle d'Aosta,M,Y35-39,3322
+ITC2,Valle d'Aosta,F,Y50-54,5400
+ITC2,Valle d'Aosta,T,Y80-84,5043
+ITC2,Valle d'Aosta,T,TOTAL,123360
 ITD3,Veneto,M,Y5-9,105344
 ITD3,Veneto,F,Y10-14,112988
 ITD3,Veneto,F,Y45-49,190630
