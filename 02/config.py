@@ -17,6 +17,8 @@ iColor2 = ['#80C11E','#636466']
 def configure_layout(chart):
     return chart.configure_axis(
         labelFontSize=labelFontSize,
-        titleFontSize=titleFontSize
+        titleFontSize=titleFontSize,
+        grid=False
     ).configure_title(fontSize=fontSize,offset=offset
-    ).configure_legend(titleFontSize=titleFontSize, labelFontSize=labelFontSize) 
+    ).configure_legend(titleFontSize=titleFontSize, labelFontSize=labelFontSize
+    ).configure_view(strokeWidth=0)
