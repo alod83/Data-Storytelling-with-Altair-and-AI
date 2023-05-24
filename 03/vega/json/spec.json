@@ -7,7 +7,7 @@
 
   "data": [
     {
-      "name": "data",
+      "name": "mydata",
       "url": "https://raw.githubusercontent.com/alod83/Data-Storytelling-with-Python-Altair-and-GitHub-Copilot/main/03/data/data.csv", "format": {"type": "csv"}
     }
   ],
@@ -15,12 +15,12 @@
   "scales": [
     {
       "name": "xscale",
-      "domain": {"data": "data", "field": "X"},
+      "domain": {"data": "mydata", "field": "X"},
       "range": "width"
     },
     {
       "name": "yscale",
-      "domain": {"data": "data", "field": "Y"},
+      "domain": {"data": "mydata", "field": "Y"},
       "range": "height"
     }
   ],
@@ -33,7 +33,7 @@
   "marks": [
     {
       "type": "line",
-      "from": {"data":"data"},
+      "from": {"data":"mydata"},
       "encode": {
         "enter": {
           "x": {"scale": "xscale", "field": "X"},
@@ -45,7 +45,7 @@
     },
     {
       "type": "symbol",
-      "from": {"data":"data"},
+      "from": {"data":"mydata"},
       "encode": {
         "enter": {
           "x": {"scale": "xscale", "field": "X"},
