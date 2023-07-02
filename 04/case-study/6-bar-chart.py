@@ -33,8 +33,8 @@ chart = alt.Chart(df).mark_bar().encode(
 ).properties(
     width=300,
     # Add the following properties to the chart:
-    # * title to 'Invest in Rowing and Cycling'
-    title='Invest in Rowing and Cycling'
+    # * title to 'Unlock the Potential: Invest in Rowing and Cycling for Maximum Returns!'
+    title='Unlock the Potential: Invest in Rowing and Cycling for Maximum Returns!'
 )
 
 # Add a horizontal red line to the chart at y=50
@@ -42,14 +42,26 @@ chart = alt.Chart(df).mark_bar().encode(
 
 chart = chart + alt.Chart(pd.DataFrame({'y': [50]})).mark_rule(color='red').encode(y='y')
 
-# Add the following image to the chart:
-# path = 'images/rowing.png'
+# Add a new column to df called 'url' with the following value:
+# * 'https://raw.githubusercontent.com/alod83/Data-Storytelling-with-Python-Altair-and-Generative-AI/eb16ac4564513ccfb8123ccde1926fbc88994ac6/04/case-study/images/cycling.png' for Training Type = 'Cycling'
+# * 'https://raw.githubusercontent.com/alod83/Data-Storytelling-with-Python-Altair-and-Generative-AI/eb16ac4564513ccfb8123ccde1926fbc88994ac6/04/case-study/images/rowing.png' for Training Type = 'Rowing'
+# * '' for all other Training Types
 
-chart = alt.Chart(pd.DataFrame({'path': ['images/rowing.png']})).mark_image(width=50, height=50).encode(
-    x=alt.value(0),
-    y=alt.value(50),
-    url='path'
+df['url'] = ''
+df.loc[df['Training Type'] == 'Cycling', 'url'] = 'https://raw.githubusercontent.com/alod83/Data-Storytelling-with-Python-Altair-and-Generative-AI/eb16ac4564513ccfb8123ccde1926fbc88994ac6/04/case-study/images/cycling.png'
+df.loc[df['Training Type'] == 'Rowing', 'url'] = 'https://raw.githubusercontent.com/alod83/Data-Storytelling-with-Python-Altair-and-Generative-AI/eb16ac4564513ccfb8123ccde1926fbc88994ac6/04/case-study/images/rowing.png'
+
+# Add the following image to the chart:
+# * The image is a 35x35 pixel image
+# * The image is located at x='Training Type', y='Percentage Improvement'
+
+chart = chart + alt.Chart(df).mark_image(width=35, height=35).encode(
+    x=alt.X('Training Type', sort='-y'),
+    y=alt.Y('Percentage Improvement'),
+    url='url'
 )
+
+# Save the chart as 'competitions.html'
 
 
 chart.save('competitions.html')

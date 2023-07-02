@@ -37,6 +37,6 @@ chart = alt.Chart(df).mark_bar().encode(
 # Add a horizontal red line to the chart at y=50
 # Add the line to the chart
 
-chart = chart + alt.Chart(pd.DataFrame({'y': [50]})).mark_rule(color='red').encode(y='y')
+#chart = chart + alt.Chart(pd.DataFrame({'y': [50]})).mark_rule(color='red').encode(y='y')
 
 chart.save('competitions.html')
