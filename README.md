@@ -8,15 +8,15 @@ This is the code repository for [Data Storytelling with Python Altair and Genera
 
 1. [Introducing Data Storytelling](01) 
 
-2. Running your first data story in Altair and GitHub Copilot 
+2. [Running your first data story in Altair and GitHub Copilot](02) 
 
-3. Reviewing the basic concepts of Altair
+3. [Reviewing the basic concepts of Altair](03)
 
-4. Generative AI Tools for Data Storytelling
+4. [Generative AI Tools for Data Storytelling](04)
 
 ## Part 2:  Core chapters
 
-5. Crafting a data story through the DIKW Pyramid
+5. [Crafting a data story through the DIKW Pyramid](05)
 
 6. From Data to Information: extracting meaning
 
@@ -33,6 +33,7 @@ This is the code repository for [Data Storytelling with Python Altair and Genera
 ## APPENDIXES 
 
 A. Technical Requirements
+
 B. Python Pandas DataFrame
 
 
