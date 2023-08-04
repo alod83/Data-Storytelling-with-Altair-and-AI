@@ -79,10 +79,10 @@ for index, row in ns.iterrows():
     )
     donut = alt.Chart(curr_ns).mark_arc(outerRadius=30,innerRadius=20).encode(
         theta=alt.Theta("Value:Q",stack=True),
-        color=alt.Color("Category:N",scale=alt.Scale(range=[iColor, 'lightgray']),legend=None)
+        color=alt.Color("Category:N",scale=alt.Scale(range=['#80C11E', 'lightgray']),legend=None)
     )
     title = alt.Chart(curr_ns).mark_text(text=row['Category'], y=0, size=16)
-    text = alt.Chart(curr_ns).mark_text(text=f"{row['Allocation']}%", color=iColor, size=16)
+    text = alt.Chart(curr_ns).mark_text(text=f"{row['Allocation']}%", color='#80C11E', size=16)
     donut = donut.properties(
         height=100, 
         width=100
@@ -103,4 +103,5 @@ chart = chart.configure_title(
 ).configure_view(
     strokeWidth=0
 )
+
 chart.save('story-chart.html')
