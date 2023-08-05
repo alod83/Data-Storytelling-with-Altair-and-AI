@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .error {
+        color: red;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.17.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300, "strokeWidth": 0}}, "layer": [{"data": {"name": "data-4f8ad589142cafea7f44fddda3bda2bc"}, "mark": {"type": "arc", "innerRadius": 100, "outerRadius": 150}, "encoding": {"color": {"field": "color", "scale": null, "type": "nominal"}, "theta": {"field": "percentage", "type": "quantitative"}, "tooltip": {"field": "label", "type": "nominal"}}, "height": 300, "width": 300}, {"data": {"name": "data-c49f021d7f433a0001ccd441c030096e"}, "mark": {"type": "text", "align": "center", "baseline": "middle", "color": "black", "fontSize": 60, "fontWeight": "bold"}, "encoding": {"color": {"field": "color", "scale": null, "type": "nominal"}, "text": {"field": "label", "type": "nominal"}}, "height": 300, "width": 300}], "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json", "datasets": {"data-4f8ad589142cafea7f44fddda3bda2bc": [{"percentage": 0.29, "label": "29%", "color": "#81c01e"}, {"percentage": 0.71, "label": "71%", "color": "lightgray"}], "data-c49f021d7f433a0001ccd441c030096e": [{"percentage": 0.29, "label": "29%", "color": "#81c01e"}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div class="error" style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
