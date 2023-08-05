@@ -1,0 +1,9 @@
+product_id,number_of_orders,product_rating,product_category,returns,number_of_reviews
+P1001,30,4.5,Electronics,0,3
+P1002,12,3.2,Home & Kitchen,6,6
+P1003,55,4.9,Apparel,0,4
+P1004,34,2.5,Electronics,29,32
+P1005,28,4.8,Home & Kitchen,3,8
+P1006,32,3.8,Electronics,2,7
+P1006,24,4.2,Electronics,0,4
+P1006,22,2.1,Electronics,18,20

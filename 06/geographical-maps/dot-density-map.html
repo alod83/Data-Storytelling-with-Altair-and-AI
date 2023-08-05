@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.8.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "layer": [{"data": {"url": "https://raw.githubusercontent.com/deldersveld/topojson/master/continents/europe.json", "format": {"feature": "continent_Europe_subunits", "type": "topojson"}}, "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"}, "projection": {"type": "mercator"}}, {"data": {"name": "data-5336372eeb960cb40086d452f8dda5c4"}, "mark": {"type": "circle", "color": "#81c01e"}, "encoding": {"latitude": {"field": "Latitude", "type": "quantitative"}, "longitude": {"field": "Longitude", "type": "quantitative"}, "tooltip": {"field": "Sales", "type": "quantitative"}}}], "height": 400, "width": 400, "$schema": "https://vega.github.io/schema/vega-lite/v5.8.0.json", "datasets": {"data-5336372eeb960cb40086d452f8dda5c4": [{"Country": "Germany", "Sales": 500, "Latitude": 51.1657, "Longitude": 10.4515}, {"Country": "France", "Sales": 650, "Latitude": 46.6033, "Longitude": 1.8883}, {"Country": "Italy", "Sales": 400, "Latitude": 41.8719, "Longitude": 12.5674}, {"Country": "Spain", "Sales": 550, "Latitude": 40.4637, "Longitude": -3.7492}, {"Country": "United Kingdom", "Sales": 700, "Latitude": 55.3781, "Longitude": -3.436}, {"Country": "Netherlands", "Sales": 300, "Latitude": 52.3676, "Longitude": 4.9041}, {"Country": "Belgium", "Sales": 250, "Latitude": 50.8503, "Longitude": 4.3517}, {"Country": "Switzerland", "Sales": 450, "Latitude": 46.8182, "Longitude": 8.2275}, {"Country": "Austria", "Sales": 350, "Latitude": 47.5162, "Longitude": 14.5501}, {"Country": "Sweden", "Sales": 600, "Latitude": 60.1282, "Longitude": 18.6435}, {"Country": "Denmark", "Sales": 280, "Latitude": 56.2639, "Longitude": 9.5018}, {"Country": "Norway", "Sales": 320, "Latitude": 60.472, "Longitude": 8.4689}, {"Country": "Finland", "Sales": 400, "Latitude": 61.9241, "Longitude": 25.7482}, {"Country": "Portugal", "Sales": 200, "Latitude": 39.3999, "Longitude": -8.2245}, {"Country": "Greece", "Sales": 180, "Latitude": 39.0742, "Longitude": 21.8243}, {"Country": "Ireland", "Sales": 380, "Latitude": 53.1424, "Longitude": -7.6921}, {"Country": "Poland", "Sales": 480, "Latitude": 51.9194, "Longitude": 19.1451}, {"Country": "Czech Republic", "Sales": 420, "Latitude": 49.8175, "Longitude": 15.473}, {"Country": "Hungary", "Sales": 320, "Latitude": 47.1625, "Longitude": 19.5033}, {"Country": "Slovakia", "Sales": 250, "Latitude": 48.669, "Longitude": 19.699}, {"Country": "Romania", "Sales": 300, "Latitude": 45.9432, "Longitude": 24.9668}, {"Country": "Bulgaria", "Sales": 180, "Latitude": 42.7339, "Longitude": 25.4858}, {"Country": "Croatia", "Sales": 210, "Latitude": 45.1, "Longitude": 15.2}, {"Country": "Serbia", "Sales": 260, "Latitude": 44.0165, "Longitude": 21.0059}, {"Country": "Slovenia", "Sales": 180, "Latitude": 46.1512, "Longitude": 14.9955}, {"Country": "Estonia", "Sales": 120, "Latitude": 58.5953, "Longitude": 25.0136}, {"Country": "Latvia", "Sales": 140, "Latitude": 56.8796, "Longitude": 24.6032}, {"Country": "Lithuania", "Sales": 160, "Latitude": 55.1694, "Longitude": 23.8813}, {"Country": "Ukraine", "Sales": 500, "Latitude": 48.3794, "Longitude": 31.1656}, {"Country": "Belarus", "Sales": 300, "Latitude": 53.7098, "Longitude": 27.9534}, {"Country": "Moldova", "Sales": 150, "Latitude": 47.4116, "Longitude": 28.3699}, {"Country": "Albania", "Sales": 130, "Latitude": 41.1533, "Longitude": 20.1683}, {"Country": "Montenegro", "Sales": 160, "Latitude": 42.7087, "Longitude": 19.3744}, {"Country": "Bosnia and Herzegovina", "Sales": 200, "Latitude": 43.9159, "Longitude": 17.6791}, {"Country": "North Macedonia", "Sales": 180, "Latitude": 41.6086, "Longitude": 21.7453}, {"Country": "Kosovo", "Sales": 120, "Latitude": 42.6026, "Longitude": 20.903}, {"Country": "Malta", "Sales": 90, "Latitude": 35.9375, "Longitude": 14.3754}, {"Country": "Cyprus", "Sales": 120, "Latitude": 35.1264, "Longitude": 33.4299}, {"Country": "Iceland", "Sales": 200, "Latitude": 64.9631, "Longitude": -19.0208}, {"Country": "Luxembourg", "Sales": 180, "Latitude": 49.8153, "Longitude": 6.1296}, {"Country": "Liechtenstein", "Sales": 70, "Latitude": 47.166, "Longitude": 9.5554}, {"Country": "Andorra", "Sales": 80, "Latitude": 42.5063, "Longitude": 1.5218}, {"Country": "Monaco", "Sales": 100, "Latitude": 43.7384, "Longitude": 7.4246}, {"Country": "San Marino", "Sales": 60, "Latitude": 43.9424, "Longitude": 12.4578}, {"Country": "Vatican City", "Sales": 20, "Latitude": 41.9029, "Longitude": 12.4534}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

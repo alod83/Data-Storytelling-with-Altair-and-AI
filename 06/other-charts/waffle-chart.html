@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.8.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "data": {"name": "data-f99329a13d7b5433355288ceb85aea36"}, "mark": {"type": "rect", "size": 5, "stroke": "black"}, "encoding": {"color": {"condition": {"test": "(datum.z === 0)", "value": "lightgrey"}, "value": "#81c01e"}, "x": {"axis": null, "field": "x", "type": "ordinal"}, "y": {"axis": null, "field": "y", "type": "ordinal"}}, "$schema": "https://vega.github.io/schema/vega-lite/v5.8.0.json", "datasets": {"data-f99329a13d7b5433355288ceb85aea36": [{"x": 0, "y": 0, "z": 0}, {"x": 1, "y": 0, "z": 0}, {"x": 2, "y": 0, "z": 0}, {"x": 3, "y": 0, "z": 0}, {"x": 4, "y": 0, "z": 0}, {"x": 5, "y": 0, "z": 0}, {"x": 6, "y": 0, "z": 0}, {"x": 7, "y": 0, "z": 0}, {"x": 8, "y": 0, "z": 0}, {"x": 9, "y": 0, "z": 0}, {"x": 0, "y": 1, "z": 0}, {"x": 1, "y": 1, "z": 0}, {"x": 2, "y": 1, "z": 0}, {"x": 3, "y": 1, "z": 0}, {"x": 4, "y": 1, "z": 0}, {"x": 5, "y": 1, "z": 0}, {"x": 6, "y": 1, "z": 0}, {"x": 7, "y": 1, "z": 0}, {"x": 8, "y": 1, "z": 0}, {"x": 9, "y": 1, "z": 0}, {"x": 0, "y": 2, "z": 0}, {"x": 1, "y": 2, "z": 0}, {"x": 2, "y": 2, "z": 0}, {"x": 3, "y": 2, "z": 0}, {"x": 4, "y": 2, "z": 0}, {"x": 5, "y": 2, "z": 0}, {"x": 6, "y": 2, "z": 0}, {"x": 7, "y": 2, "z": 1}, {"x": 8, "y": 2, "z": 1}, {"x": 9, "y": 2, "z": 1}, {"x": 0, "y": 3, "z": 1}, {"x": 1, "y": 3, "z": 1}, {"x": 2, "y": 3, "z": 1}, {"x": 3, "y": 3, "z": 1}, {"x": 4, "y": 3, "z": 1}, {"x": 5, "y": 3, "z": 1}, {"x": 6, "y": 3, "z": 1}, {"x": 7, "y": 3, "z": 1}, {"x": 8, "y": 3, "z": 1}, {"x": 9, "y": 3, "z": 1}, {"x": 0, "y": 4, "z": 1}, {"x": 1, "y": 4, "z": 1}, {"x": 2, "y": 4, "z": 1}, {"x": 3, "y": 4, "z": 1}, {"x": 4, "y": 4, "z": 1}, {"x": 5, "y": 4, "z": 1}, {"x": 6, "y": 4, "z": 1}, {"x": 7, "y": 4, "z": 1}, {"x": 8, "y": 4, "z": 1}, {"x": 9, "y": 4, "z": 1}, {"x": 0, "y": 5, "z": 1}, {"x": 1, "y": 5, "z": 1}, {"x": 2, "y": 5, "z": 1}, {"x": 3, "y": 5, "z": 1}, {"x": 4, "y": 5, "z": 1}, {"x": 5, "y": 5, "z": 1}, {"x": 6, "y": 5, "z": 1}, {"x": 7, "y": 5, "z": 1}, {"x": 8, "y": 5, "z": 1}, {"x": 9, "y": 5, "z": 1}, {"x": 0, "y": 6, "z": 1}, {"x": 1, "y": 6, "z": 1}, {"x": 2, "y": 6, "z": 1}, {"x": 3, "y": 6, "z": 1}, {"x": 4, "y": 6, "z": 1}, {"x": 5, "y": 6, "z": 1}, {"x": 6, "y": 6, "z": 1}, {"x": 7, "y": 6, "z": 1}, {"x": 8, "y": 6, "z": 1}, {"x": 9, "y": 6, "z": 1}, {"x": 0, "y": 7, "z": 1}, {"x": 1, "y": 7, "z": 1}, {"x": 2, "y": 7, "z": 1}, {"x": 3, "y": 7, "z": 1}, {"x": 4, "y": 7, "z": 1}, {"x": 5, "y": 7, "z": 1}, {"x": 6, "y": 7, "z": 1}, {"x": 7, "y": 7, "z": 1}, {"x": 8, "y": 7, "z": 1}, {"x": 9, "y": 7, "z": 1}, {"x": 0, "y": 8, "z": 1}, {"x": 1, "y": 8, "z": 1}, {"x": 2, "y": 8, "z": 1}, {"x": 3, "y": 8, "z": 1}, {"x": 4, "y": 8, "z": 1}, {"x": 5, "y": 8, "z": 1}, {"x": 6, "y": 8, "z": 1}, {"x": 7, "y": 8, "z": 1}, {"x": 8, "y": 8, "z": 1}, {"x": 9, "y": 8, "z": 1}, {"x": 0, "y": 9, "z": 1}, {"x": 1, "y": 9, "z": 1}, {"x": 2, "y": 9, "z": 1}, {"x": 3, "y": 9, "z": 1}, {"x": 4, "y": 9, "z": 1}, {"x": 5, "y": 9, "z": 1}, {"x": 6, "y": 9, "z": 1}, {"x": 7, "y": 9, "z": 1}, {"x": 8, "y": 9, "z": 1}, {"x": 9, "y": 9, "z": 1}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

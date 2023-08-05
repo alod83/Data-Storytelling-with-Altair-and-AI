@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.8.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300, "strokeWidth": 0}, "axis": {"grid": false}}, "data": {"name": "data-474a26d9198add64ca446101f6496870"}, "mark": {"type": "line", "point": true}, "encoding": {"color": {"field": "Meal Type", "legend": null, "scale": {"range": ["#81c01e", "gray"]}, "type": "nominal"}, "x": {"axis": {"title": null}, "field": "Meal Type", "type": "nominal"}, "y": {"field": "Number of Orders", "type": "quantitative"}}, "height": 300, "transform": [{"filter": "((datum['Month'] === 'December') || (datum['Month'] === 'January'))"}], "width": 600, "$schema": "https://vega.github.io/schema/vega-lite/v5.8.0.json", "datasets": {"data-474a26d9198add64ca446101f6496870": [{"Month": "January", "Meal Type": "Pizza", "Number of Orders": 200}, {"Month": "February", "Meal Type": "Pizza", "Number of Orders": 220}, {"Month": "March", "Meal Type": "Pizza", "Number of Orders": 240}, {"Month": "April", "Meal Type": "Pizza", "Number of Orders": 230}, {"Month": "May", "Meal Type": "Pizza", "Number of Orders": 250}, {"Month": "June", "Meal Type": "Pizza", "Number of Orders": 280}, {"Month": "July", "Meal Type": "Pizza", "Number of Orders": 300}, {"Month": "August", "Meal Type": "Pizza", "Number of Orders": 320}, {"Month": "September", "Meal Type": "Pizza", "Number of Orders": 310}, {"Month": "October", "Meal Type": "Pizza", "Number of Orders": 290}, {"Month": "November", "Meal Type": "Pizza", "Number of Orders": 270}, {"Month": "December", "Meal Type": "Pizza", "Number of Orders": 240}, {"Month": "January", "Meal Type": "Spaghetti", "Number of Orders": 18}, {"Month": "February", "Meal Type": "Spaghetti", "Number of Orders": 19}, {"Month": "March", "Meal Type": "Spaghetti", "Number of Orders": 10}, {"Month": "April", "Meal Type": "Spaghetti", "Number of Orders": 20}, {"Month": "May", "Meal Type": "Spaghetti", "Number of Orders": 20}, {"Month": "June", "Meal Type": "Spaghetti", "Number of Orders": 40}, {"Month": "July", "Meal Type": "Spaghetti", "Number of Orders": 60}, {"Month": "August", "Meal Type": "Spaghetti", "Number of Orders": 80}, {"Month": "September", "Meal Type": "Spaghetti", "Number of Orders": 70}, {"Month": "October", "Meal Type": "Spaghetti", "Number of Orders": 50}, {"Month": "November", "Meal Type": "Spaghetti", "Number of Orders": 30}, {"Month": "December", "Meal Type": "Spaghetti", "Number of Orders": 20}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
