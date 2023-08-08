@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.8.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300, "strokeWidth": 0}, "axis": {"grid": false}, "title": {"fontSize": 20, "offset": 25}}, "data": {"name": "data-173fc42a59142070ff2d85d416ae0312"}, "mark": {"type": "bar", "color": "#80C11E"}, "encoding": {"x": {"axis": {"tickCount": 4, "title": "Number of homeless people"}, "field": "Value", "type": "quantitative"}, "y": {"axis": {"title": ""}, "field": "Territory", "sort": "-x", "type": "nominal"}}, "title": "Homelessness in Italy in 2021", "width": 500, "$schema": "https://vega.github.io/schema/vega-lite/v5.8.0.json", "datasets": {"data-173fc42a59142070ff2d85d416ae0312": [{"ITTER107": "ITC1", "Territory": "Piemonte", "Sex": "T", "Age": "TOTAL", "Citizenship": "TOTAL", "Value": 8766}, {"ITTER107": "ITC2", "Territory": "Valle d'Aosta", "Sex": "T", "Age": "TOTAL", "Citizenship": "TOTAL", "Value": 73}, {"ITTER107": "ITC3", "Territory": "Liguria", "Sex": "T", "Age": "TOTAL", "Citizenship": "TOTAL", "Value": 4293}, {"ITTER107": "ITC4", "Territory": "Lombardia", "Sex": "T", "Age": "TOTAL", "Citizenship": "TOTAL", "Value": 16346}, {"ITTER107": "ITDA", "Territory": "Trentino-Alto Adige/S\u00fcdtirol", "Sex": "T", "Age": "TOTAL", "Citizenship": "TOTAL", "Value": 612}, {"ITTER107": "ITD3", "Territory": "Veneto", "Sex": "T", "Age": "TOTAL", "Citizenship": "TOTAL", "Value": 3794}, {"ITTER107": "ITD4", "Territory": "Friuli-Venezia Giulia", "Sex": "T", "Age": "TOTAL", "Citizenship": "TOTAL", "Value": 1451}, {"ITTER107": "ITD5", "Territory": "Emilia-Romagna", "Sex": "T", "Age": "TOTAL", "Citizenship": "TOTAL", "Value": 4926}, {"ITTER107": "ITE1", "Territory": "Toscana", "Sex": "T", "Age": "TOTAL", "Citizenship": "TOTAL", "Value": 4450}, {"ITTER107": "ITE2", "Territory": "Umbria", "Sex": "T", "Age": "TOTAL", "Citizenship": "TOTAL", "Value": 431}, {"ITTER107": "ITE3", "Territory": "Marche", "Sex": "T", "Age": "TOTAL", "Citizenship": "TOTAL", "Value": 1107}, {"ITTER107": "ITE4", "Territory": "Lazio", "Sex": "T", "Age": "TOTAL", "Citizenship": "TOTAL", "Value": 24049}, {"ITTER107": "ITF1", "Territory": "Abruzzo", "Sex": "T", "Age": "TOTAL", "Citizenship": "TOTAL", "Value": 610}, {"ITTER107": "ITF2", "Territory": "Molise", "Sex": "T", "Age": "TOTAL", "Citizenship": "TOTAL", "Value": 101}, {"ITTER107": "ITF3", "Territory": "Campania", "Sex": "T", "Age": "TOTAL", "Citizenship": "TOTAL", "Value": 7828}, {"ITTER107": "ITF4", "Territory": "Puglia", "Sex": "T", "Age": "TOTAL", "Citizenship": "TOTAL", "Value": 7655}, {"ITTER107": "ITF5", "Territory": "Basilicata", "Sex": "T", "Age": "TOTAL", "Citizenship": "TOTAL", "Value": 119}, {"ITTER107": "ITF6", "Territory": "Calabria", "Sex": "T", "Age": "TOTAL", "Citizenship": "TOTAL", "Value": 2351}, {"ITTER107": "ITG1", "Territory": "Sicilia", "Sex": "T", "Age": "TOTAL", "Citizenship": "TOTAL", "Value": 4023}, {"ITTER107": "ITG2", "Territory": "Sardegna", "Sex": "T", "Age": "TOTAL", "Citizenship": "TOTAL", "Value": 3212}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.8.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300, "strokeWidth": 0}, "axis": {"grid": false}}, "layer": [{"data": {"name": "data-dbd56dd2909b392ba07aa172bfcaeb92"}, "mark": {"type": "bar"}, "encoding": {"color": {"field": "Macro Category", "legend": null, "scale": {"domain": ["Material Life", "Moral Life", "Spiritual Life"], "range": ["#991111", "#f38f8f", "lightgray"]}, "type": "nominal"}, "x": {"axis": {"labelFontSize": 14, "titleFontSize": 14}, "field": "Percentage of Fake Articles", "title": null, "type": "quantitative"}, "y": {"axis": {"labelFontSize": 14}, "field": "Category", "sort": "x", "title": null, "type": "nominal"}}, "transform": [{"calculate": "((datum['Number of Fake Articles'] / datum['Number of Articles']) * 100)", "as": "Percentage of Fake Articles"}]}, {"data": {"name": "data-5f3f9bc2082c8dacaf4aaa93ca24454d"}, "mark": {"type": "image", "height": 80, "width": 80}, "encoding": {"url": {"field": "image_url", "type": "nominal"}, "x": {"value": 270}, "y": {"value": 50}}}, {"data": {"name": "data-550edaffc2b36c1e033308b82fe762da"}, "mark": {"type": "text", "align": "center", "baseline": "middle", "color": "black", "font": "Monotype", "fontSize": 30, "fontStyle": "italic"}, "encoding": {"text": {"field": "text", "type": "nominal"}, "x": {"value": 420}, "y": {"value": 50}}}, {"data": {"name": "data-49c3055dd0dfbdd6e49abd02fdecf1c6"}, "mark": {"type": "image", "height": 80, "width": 80}, "encoding": {"url": {"field": "image_url", "type": "nominal"}, "x": {"value": 380}, "y": {"value": 160}}}, {"data": {"name": "data-b55edeadcc0bff4af467dfdcced9cf4f"}, "mark": {"type": "text", "align": "center", "baseline": "middle", "color": "black", "font": "Monotype", "fontSize": 30, "fontStyle": "italic"}, "encoding": {"text": {"field": "text", "type": "nominal"}, "x": {"value": 530}, "y": {"value": 160}}}, {"data": {"name": "data-502803c3b87d62f29e8824c8e1d45e1a"}, "mark": {"type": "image", "height": 80, "width": 80}, "encoding": {"url": {"field": "image_url", "type": "nominal"}, "x": {"value": 500}, "y": {"value": 300}}}, {"data": {"name": "data-831770791d7e05e45f06a2bd56749a8c"}, "mark": {"type": "text", "align": "center", "baseline": "middle", "color": "black", "font": "Monotype", "fontSize": 30, "fontStyle": "italic"}, "encoding": {"text": {"field": "text", "type": "nominal"}, "x": {"value": 650}, "y": {"value": 300}}}], "height": 400, "title": {"text": ["Your Truth Guardian:", "Take a Stand Against Fake News in Material and Moral Narratives"], "fontSize": 30, "offset": 40, "subtitle": ["The XX website is a popular source of news and information, but it is also a source of fake news."], "subtitleFontSize": 18}, "width": 500, "$schema": "https://vega.github.io/schema/vega-lite/v5.8.0.json", "datasets": {"data-dbd56dd2909b392ba07aa172bfcaeb92": [{"Category": "Politics", "Number of Fake Articles": 1235, "Number of Articles": 1300, "Macro Category": "Material Life"}, {"Category": "Economy", "Number of Fake Articles": 1456, "Number of Articles": 1678, "Macro Category": "Material Life"}, {"Category": "Justice", "Number of Fake Articles": 300, "Number of Articles": 570, "Macro Category": "Moral Life"}, {"Category": "Religion", "Number of Fake Articles": 30, "Number of Articles": 100, "Macro Category": "Spiritual Life"}, {"Category": "Technology", "Number of Fake Articles": 2345, "Number of Articles": 2567, "Macro Category": "Material Life"}, {"Category": "Environment", "Number of Fake Articles": 1200, "Number of Articles": 1350, "Macro Category": "Material Life"}, {"Category": "Health", "Number of Fake Articles": 2300, "Number of Articles": 2600, "Macro Category": "Material Life"}, {"Category": "Science", "Number of Fake Articles": 3044, "Number of Articles": 3500, "Macro Category": "Material Life"}, {"Category": "Education", "Number of Fake Articles": 1235, "Number of Articles": 1290, "Macro Category": "Material Life"}, {"Category": "Business", "Number of Fake Articles": 2345, "Number of Articles": 3000, "Macro Category": "Material Life"}, {"Category": "Lifestyle", "Number of Fake Articles": 3212, "Number of Articles": 3500, "Macro Category": "Material Life"}, {"Category": "Travel", "Number of Fake Articles": 2312, "Number of Articles": 2700, "Macro Category": "Material Life"}, {"Category": "Social Issues", "Number of Fake Articles": 456, "Number of Articles": 1000, "Macro Category": "Moral Life"}, {"Category": "Ethics", "Number of Fake Articles": 987, "Number of Articles": 2300, "Macro Category": "Moral Life"}, {"Category": "Human Rights", "Number of Fake Articles": 567, "Number of Articles": 980, "Macro Category": "Moral Life"}, {"Category": "Philanthropy", "Number of Fake Articles": 456, "Number of Articles": 800, "Macro Category": "Moral Life"}, {"Category": "Diversity & Inclusion", "Number of Fake Articles": 321, "Number of Articles": 654, "Macro Category": "Moral Life"}, {"Category": "Relationships", "Number of Fake Articles": 456, "Number of Articles": 900, "Macro Category": "Moral Life"}, {"Category": "Culture & Arts", "Number of Fake Articles": 786, "Number of Articles": 1400, "Macro Category": "Moral Life"}, {"Category": "Media & Entertainment", "Number of Fake Articles": 754, "Number of Articles": 1554, "Macro Category": "Moral Life"}, {"Category": "Spirituality & Faith", "Number of Fake Articles": 23, "Number of Articles": 100, "Macro Category": "Spiritual Life"}, {"Category": "Wellness & Mindfulness", "Number of Fake Articles": 21, "Number of Articles": 99, "Macro Category": "Spiritual Life"}, {"Category": "Personal Growth", "Number of Fake Articles": 45, "Number of Articles": 140, "Macro Category": "Spiritual Life"}, {"Category": "Mysticism", "Number of Fake Articles": 67, "Number of Articles": 157, "Macro Category": "Spiritual Life"}, {"Category": "Belief Systems", "Number of Fake Articles": 43, "Number of Articles": 154, "Macro Category": "Spiritual Life"}, {"Category": "Sport", "Number of Fake Articles": 2321, "Number of Articles": 2900, "Macro Category": "Material Life"}, {"Category": "Philosophy", "Number of Fake Articles": 23, "Number of Articles": 200, "Macro Category": "Spiritual Life"}], "data-5f3f9bc2082c8dacaf4aaa93ca24454d": [{"image_url": "media/spiritual-life.png"}], "data-550edaffc2b36c1e033308b82fe762da": [{"text": "Spiritual Life"}], "data-49c3055dd0dfbdd6e49abd02fdecf1c6": [{"image_url": "media/moral-life.png"}], "data-b55edeadcc0bff4af467dfdcced9cf4f": [{"text": "Moral Life"}], "data-502803c3b87d62f29e8824c8e1d45e1a": [{"image_url": "media/material-life.png"}], "data-831770791d7e05e45f06a2bd56749a8c": [{"text": "Material Life"}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
