@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.8.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300, "strokeWidth": 0}, "axis": {"grid": false}}, "layer": [{"mark": {"type": "line", "color": "#c01e95"}, "encoding": {"x": {"axis": {"title": null}, "field": "date", "type": "temporal"}, "y": {"axis": {"labelColor": "#c01e95", "titleColor": "#c01e95"}, "field": "price", "title": "Price", "type": "quantitative"}}}, {"mark": {"type": "line", "color": "#81c01e"}, "encoding": {"x": {"axis": {"title": null}, "field": "date", "type": "temporal"}, "y": {"axis": {"labelColor": "#81c01e", "titleColor": "#81c01e"}, "field": "sales", "title": "Sales", "type": "quantitative"}}}], "data": {"name": "data-dea886bbdae6ffd899e09f145b0b938d"}, "height": 300, "resolve": {"scale": {"y": "independent"}}, "width": 600, "$schema": "https://vega.github.io/schema/vega-lite/v5.8.0.json", "datasets": {"data-dea886bbdae6ffd899e09f145b0b938d": [{"date": "2023-01-01T00:00:00", "price": 100, "sales": 10}, {"date": "2023-01-02T00:00:00", "price": 105, "sales": 13}, {"date": "2023-01-03T00:00:00", "price": 110, "sales": 14}, {"date": "2023-01-04T00:00:00", "price": 115, "sales": 17}, {"date": "2023-01-05T00:00:00", "price": 122, "sales": 18}, {"date": "2023-01-06T00:00:00", "price": 125, "sales": 21}, {"date": "2023-01-07T00:00:00", "price": 133, "sales": 22}, {"date": "2023-01-08T00:00:00", "price": 135, "sales": 24}, {"date": "2023-01-09T00:00:00", "price": 140, "sales": 26}, {"date": "2023-01-10T00:00:00", "price": 148, "sales": 29}, {"date": "2023-01-11T00:00:00", "price": 150, "sales": 31}, {"date": "2023-01-12T00:00:00", "price": 157, "sales": 32}, {"date": "2023-01-13T00:00:00", "price": 160, "sales": 37}, {"date": "2023-01-14T00:00:00", "price": 168, "sales": 39}, {"date": "2023-01-15T00:00:00", "price": 172, "sales": 41}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

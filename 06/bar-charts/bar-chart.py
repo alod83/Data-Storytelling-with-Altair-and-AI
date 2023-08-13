@@ -33,7 +33,7 @@ text = chart.mark_text(
     align='left',
     baseline='middle',
     dx=3,
-    color='#81c01',
+    color='#81c01e',
     fontSize=14
 ).encode(
     text='Number of Likes',

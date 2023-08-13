@@ -6,9 +6,6 @@ df = pd.read_csv('data/orders.csv')
 
 df = df.melt(id_vars=['Month'],var_name='Meal Type',value_name='Number of Orders')
 
-# Build a list of months
-months = ['January','February','March','April','May','June','July','August','September','October','November','December']
-
 chart = alt.Chart(df).encode(
     y=alt.Y('Meal Type:N',
             axis=alt.Axis(title=None)
