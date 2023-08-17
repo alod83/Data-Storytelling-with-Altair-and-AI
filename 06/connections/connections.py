@@ -17,7 +17,7 @@ rating_reviews_chart = alt.Chart(df).mark_bar(
     title='Product Ratings vs. Number of Reviews'
 )
 
-df['percentage_of_returns'] = df['returns'] / df['number_of_orders' ]
+df['percentage_of_returns'] = df['returns'] / df['number_of_orders' ]*100
 
 # Visualize relationship between product ratings and revenue
 rating_revenue_chart = alt.Chart(df).mark_circle(
@@ -25,7 +25,9 @@ rating_revenue_chart = alt.Chart(df).mark_circle(
     size=100
 ).encode(
     alt.X('product_rating:Q', title='Product Rating'),
-    alt.Y('percentage_of_returns:Q', title='Percentage of returns'),
+    alt.Y('percentage_of_returns:Q', 
+          title='Percentage of returns',
+          scale=alt.Scale(domain=(0, 100))),
     tooltip=['product_rating', 'returns']
 ).properties(
     title='Product Ratings vs. Percentage of Returns'
