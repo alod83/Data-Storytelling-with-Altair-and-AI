@@ -6,7 +6,7 @@ import altair as alt
 x, y = np.meshgrid(range(0, 10), range(0, 10))
 
 ndex = 0
-value = 73 # percentage
+value = 70 # percentage
 
 ## calculate colors for each cell of the waffle chart
 colors = []
@@ -32,6 +32,23 @@ chart = alt.Chart(df).mark_rect(
                         alt.value('lightgrey'),
                         alt.value('#81c01e')
                         )
-).properties()
+).properties(
+    width=200,
+    height=200
+)
+
+text = alt.Chart(pd.DataFrame({'label' : [value/100]})).mark_text(
+    align='center',
+    baseline='middle',
+    fontSize=30,
+    fontWeight='bold',
+    color='#81c01e'
+).encode(
+    text=alt.Text('label', format='.0%'),
+).properties(
+    width=200
+)
+
+chart = chart & text
 
 chart.save('waffle-chart.html')

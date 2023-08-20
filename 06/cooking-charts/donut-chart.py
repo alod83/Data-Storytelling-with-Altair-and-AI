@@ -38,8 +38,7 @@ text = alt.Chart(df.head(1)).mark_text(
     align='center',
     baseline='middle',
     fontSize=60,
-    fontWeight='bold',
-    color='black'
+    fontWeight='bold'
 ).encode(
     text='label',
     color=alt.Color('color', scale=None)
