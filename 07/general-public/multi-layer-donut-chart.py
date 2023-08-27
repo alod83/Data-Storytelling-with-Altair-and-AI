@@ -27,9 +27,6 @@ df = df.sort_values(by='Percentage', ascending=False)
 df['Complementary'] = 100 - df['Percentage']
 df = df[['Training Type', 'Percentage', 'Complementary']].copy()
 df = df.melt('Training Type', var_name='Percentage Type', value_name='Value')
-# add column for Color:
-# if column name is 'Percentage Improvement' set to '#81c01e' else 'lightgray'
-df['Color'] = df['Percentage Type'].apply(lambda x: '#81c01e' if x == 'Percentage' else 'lightgray')
 
 training_types = df['Training Type'].unique()
 charts = None
