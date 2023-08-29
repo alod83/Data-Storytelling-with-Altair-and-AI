@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .error {
+        color: red;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.17.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300, "strokeOpacity": 0}}, "layer": [{"mark": {"type": "bar", "size": 30, "stroke": "#81c01e", "strokeWidth": 2}, "encoding": {"color": {"field": "Percentage Type", "legend": null, "scale": {"domain": ["Percentage", "Complementary"], "range": ["#d9f3b0", "white"]}, "type": "nominal"}, "order": {"field": "Percentage Type", "sort": "descending", "type": "nominal"}, "x": {"axis": null, "field": "Value", "stack": "normalize", "type": "quantitative"}, "y": {"axis": {"labelColor": "#81c01e", "labelFontSize": 14, "labelFontWeight": "bold"}, "field": "Training Type", "sort": "-x", "title": "", "type": "nominal"}}, "height": 300, "width": 300}, {"mark": {"type": "text", "align": "left", "baseline": "middle", "color": "#81c01e", "dx": 10}, "encoding": {"text": {"field": "Value", "format": ".2%", "type": "quantitative"}, "x": {"axis": null, "field": "Value", "type": "quantitative"}, "y": {"axis": null, "field": "Training Type", "sort": "-x", "title": "", "type": "nominal"}}, "height": 300, "transform": [{"filter": "(datum['Percentage Type'] === 'Percentage')"}], "width": 300}], "data": {"name": "data-1f15803d4057aa0689d00f41f0857a2a"}, "resolve": {"scale": {"y": "independent"}}, "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json", "datasets": {"data-1f15803d4057aa0689d00f41f0857a2a": [{"Training Type": "Rowing", "Percentage Type": "Percentage", "Value": 0.6231983323406791}, {"Training Type": "Cycling", "Percentage Type": "Percentage", "Value": 0.5764022225730716}, {"Training Type": "Sprinting", "Percentage Type": "Percentage", "Value": 0.4269311064718163}, {"Training Type": "Long-distance running", "Percentage Type": "Percentage", "Value": 0.18307165365118505}, {"Training Type": "Swimming", "Percentage Type": "Percentage", "Value": 0.12385418887230848}, {"Training Type": "Rowing", "Percentage Type": "Complementary", "Value": 0.3768016676593209}, {"Training Type": "Cycling", "Percentage Type": "Complementary", "Value": 0.4235977774269284}, {"Training Type": "Sprinting", "Percentage Type": "Complementary", "Value": 0.5730688935281837}, {"Training Type": "Long-distance running", "Percentage Type": "Complementary", "Value": 0.816928346348815}, {"Training Type": "Swimming", "Percentage Type": "Complementary", "Value": 0.8761458111276915}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div class="error" style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

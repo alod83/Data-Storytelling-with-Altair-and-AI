@@ -35,6 +35,8 @@ innerRadius=200
 outerRadius=225
 offset=30
 y = -2*offset
+width=300
+height=300
 
 for training_type in training_types:
 
@@ -54,8 +56,8 @@ for training_type in training_types:
         theta=alt.Theta('Value:Q'),
         opacity=alt.condition(alt.datum['Percentage Type'] == 'Percentage', alt.value(1), alt.value(0)),
     ).properties(
-        width=300,
-        height=300
+        width=width,
+        height=height
     )
 
     label = alt.Chart(df_line.head(1)).mark_text(
@@ -70,8 +72,8 @@ for training_type in training_types:
     ).encode(
         text='Training Type',
     ).properties(
-        width=300,
-        height=300
+        width=width,
+        height=height
     )
 
     percentage = alt.Chart(df_line.head(1)).mark_text(
@@ -86,8 +88,8 @@ for training_type in training_types:
     ).encode(
         text=alt.Text('Percentage:N'),
     ).properties(
-        width=300,
-        height=300
+        width=width,
+        height=height
     ).transform_calculate(
         Percentage = 'format(datum.Value, ".0f")' + ' + "%"'
     )
@@ -127,8 +129,8 @@ images =  alt.Chart(df).mark_image(
     x=alt.X('x:O', axis=None)
 
 ).properties(
-    width=300,
-    height=300
+    width=width,
+    height=height
 )
 
 
