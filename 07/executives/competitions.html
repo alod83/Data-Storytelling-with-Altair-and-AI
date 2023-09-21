@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.8.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300, "strokeOpacity": 0}, "title": {"anchor": "middle", "fontSize": 20}}, "hconcat": [{"data": {"name": "data-630031f5efe492e1eae950e183fde386"}, "mark": {"type": "image", "height": 150, "width": 150, "x": 0}, "encoding": {"url": {"field": "url", "type": "nominal"}, "y": {"axis": null, "field": "y", "scale": {"domain": [0, 220]}, "type": "quantitative"}}, "height": 200, "width": 100}, {"layer": [{"data": {"name": "data-630031f5efe492e1eae950e183fde386"}, "mark": {"type": "bar"}, "encoding": {"color": {"condition": {"test": "(datum['Percentage Improvement'] > 50)", "value": "#80C11E"}, "value": "lightgray"}, "x": {"axis": {"labelAngle": 0, "title": null}, "field": "Training Type", "sort": "-y", "type": "nominal"}, "y": {"field": "Percentage Improvement", "scale": {"domain": [0, 100]}, "type": "quantitative"}}, "title": {"text": ["Unlock the Potential:", "Invest in Rowing and Cycling for Maximum Returns!"], "subtitle": ["How to Choose the Best Sport to Fund: A Data-Driven Approach"]}}, {"data": {"name": "data-e4a17ff3367223c6cbe8c433cc4fe380"}, "mark": {"type": "rule", "color": "red"}, "encoding": {"y": {"field": "y", "title": "Percentage Improvement", "type": "quantitative"}}}, {"data": {"name": "data-2611cfbdcd9b63a3649b4a071d209ed9"}, "mark": {"type": "text", "align": "left", "color": "red", "dy": -10, "size": 10, "x": 170, "y": 150}, "encoding": {"text": {"field": "text", "type": "nominal"}}}], "height": 300, "width": 400}], "$schema": "https://vega.github.io/schema/vega-lite/v5.8.0.json", "datasets": {"data-630031f5efe492e1eae950e183fde386": [{"Training Type": "Sprinting", "Record Time (Seconds)": 9.58, "Our Best Time": 15.07, "Percentage Improvement": 42.69311064718163, "url": "", "y": 0}, {"Training Type": "Long-distance running", "Record Time (Seconds)": 7299.0, "Our Best Time": 13261.76, "Percentage Improvement": 18.307165365118507, "url": "", "y": 0}, {"Training Type": "Swimming", "Record Time (Seconds)": 46.91, "Our Best Time": 88.01, "Percentage Improvement": 12.385418887230841, "url": "", "y": 0}, {"Training Type": "Cycling", "Record Time (Seconds)": 1963.49, "Our Best Time": 2795.22, "Percentage Improvement": 57.64022225730716, "url": "cycling2.jpg", "y": 0}, {"Training Type": "Rowing", "Record Time (Seconds)": 335.8, "Our Best Time": 462.33, "Percentage Improvement": 62.31983323406791, "url": "rowing2.png", "y": 170}], "data-e4a17ff3367223c6cbe8c433cc4fe380": [{"y": 50}], "data-2611cfbdcd9b63a3649b4a071d209ed9": [{"text": "Use 50% as the benchmark for sports selection"}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
