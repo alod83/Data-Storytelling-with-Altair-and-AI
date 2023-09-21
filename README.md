@@ -1,8 +1,8 @@
-# Data Storytelling with Python Altair and Generative AI
+# AI-Powered Data Storytelling in Python with Altair
 
-<a href="https://www.manning.com/books/data-storytelling-with-python-altair-and-generative-ai"><img src="https://images.manning.com/360/480/resize/book/2/40dd258-d98d-4469-8c20-ffbb032157e6/LoDuca-MEAP-HI.png" alt="Data Storytelling with Python Altair and Generative AI" height="256px" align="right"></a>
+<a href="https://www.manning.com/books/ai-powered-data-storytelling"><img src="https://images.manning.com/360/480/resize/book/5/2657045-b42c-47b4-bd1a-4486d5b04ed5/LoDuca-MEAP-HI.png" alt="AI-Powered Data Storytelling in Python with Altair" height="256px" align="right"></a>
 
-This is the code repository for [Data Storytelling with Python Altair and Generative AI](https://www.manning.com/books/data-storytelling-with-python-altair-and-generative-ai), published by Manning.
+This is the code repository for [AI-Powered Data Storytelling in Python with Altair](https://www.manning.com/books/ai-powered-data-storytelling), published by Manning Publications.
 
 ## Part 1:  Introductory Chapters 
 
@@ -18,9 +18,9 @@ This is the code repository for [Data Storytelling with Python Altair and Genera
 
 5. [Crafting a data story through the DIKW Pyramid](05)
 
-6. From Data to Information: extracting meaning
+6. [From Data to Information: extracting insights](06)
 
-7. From Information to Knowledge: building context
+7. [From Information to Knowledge: building context](07)
 
 8. From Knowledge to Wisdom: adding next steps
 
