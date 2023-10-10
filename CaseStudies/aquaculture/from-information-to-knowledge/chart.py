@@ -49,9 +49,8 @@ df = df.groupby(['YEAR_ID', 'CATEGORY'])['AMOUNT'].sum().reset_index()
 # remove year 2016 from the dataframe
 df = df[df['YEAR_ID'] != 2016]
 
-commentary = ['Aquaculture seafood in the U.S. is regulated by the FDA to ensure safety.',
-            'Strict standards are in place to monitor water quality, feed, and disease control.',
-            'Regular inspections and testing are conducted to minimize risks and protect consumers.'
+commentary = ['Aquaculture seafood in the U.S. is regulated by the FDA to ensure safety. Strict standards are in place to monitor water quality, feed, and disease control.',
+            'Regular inspections and testing are conducted to minimize risks and protect consumers. (Source: U.S. Food and Drug Administration)'
 ]
 
 base = alt.Chart(df).encode(
@@ -79,7 +78,6 @@ base = alt.Chart(df).encode(
 
 
 chart = base.mark_line(
-
 )
 # add a text mark to the chart as follows:
 #   - the x position is 'DATE'
