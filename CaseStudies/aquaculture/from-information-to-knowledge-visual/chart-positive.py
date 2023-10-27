@@ -22,8 +22,7 @@ df = df[df['UNIT_DESC'] == 'U.S.$']
 #df = df[df['UNIT_DESC'] == 'KG']
 df['DATE'] = pd.to_datetime(df['YEAR_ID'].astype(str) + '-' + df['TIMEPERIOD_ID'].astype(str) + '-1')
 # print the max value of the 'DATE' column
-color='#460805'
-#color='#0ABDFD'
+color='#105473'
 domain = ['Salmon', 'Shrimp', 'Trout', 'Scallop', 'Other']
 
 # from the dataframe filter out the following rows:
@@ -84,8 +83,7 @@ chart_line = base.mark_line(
     strokeWidth=8
 ).transform_filter(
     (alt.datum.CATEGORY == 'Salmon') & 
-    (alt.datum.YEAR_ID >= 1992) &
-    (alt.datum.YEAR_ID <= 1998)
+    (alt.datum.YEAR_ID >= 1998) 
 )
 # add a text mark to the chart as follows:
 #   - the x position is 'DATE'
@@ -149,15 +147,15 @@ annotation = alt.Chart(ann_df
 )
 
 # build a DataFrame named img_df with the following columns:
-#   - 'url' with the values '../images/deadsalmon.png'
-#   - 'x' with the value 1993
-#   - 'x2' with the value 1997
+#   - 'url' with the values '../images/safesalmon.png'
+#   - 'x' with the value 2002
+#   - 'x2' with the value 2006
 #   - 'y' with the value 0
 
-img_df = pd.DataFrame({'url': ['../images/deadsalmon.png'],
-            'x': [1993],
-            'x2': [1997],
-            'y': [5*N]
+img_df = pd.DataFrame({'url': ['../images/safesalmon.png'],
+            'x': [2002],
+            'x2': [2006],
+            'y': [9*N]
             })
 
 
@@ -189,4 +187,4 @@ chart = (chart + text + rect + annotation + chart_line + image
 )
 
 #chart = image
-chart.save('chart-negative.html')
+chart.save('chart-positive.html')
