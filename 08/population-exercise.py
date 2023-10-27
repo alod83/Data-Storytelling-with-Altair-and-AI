@@ -20,10 +20,6 @@ continents = ['Africa Eastern and Southern',
 
 df = df[df['Country Name'].isin(continents)]
 
-#df_melt = df.melt(id_vars='Year', var_name='Continent', value_name='Population')
-
-
-#colors=[color, 'grey']
 color='#80C11E'
 # build the first chart with only the North America data
 base = alt.Chart(df
