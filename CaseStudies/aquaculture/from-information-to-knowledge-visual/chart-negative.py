@@ -189,4 +189,4 @@ chart = (chart + text + rect + annotation + chart_line + image
 )
 
 #chart = image
-chart.save('chart-negative.html')
+chart.save('chart.html')
