@@ -39,5 +39,5 @@ ax.set_ylabel('Percentage Increase since 1994')
 ax.legend()
 
 # save the plot
-plt.savefig('chart.png', dpi=300)
+plt.savefig('chart.svg', dpi=300)
 
