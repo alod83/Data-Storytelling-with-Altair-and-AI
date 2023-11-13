@@ -48,7 +48,71 @@ annotation = base.mark_text(
     label='datum.Country + "(" + format(datum.PI, ".2f") + "%)"'
 )
 
-chart = (chart + annotation
+# add a commentary
+text_comm = f"""Thanks to the introduction 
+of low-cost flights, 
+Portugal has experienced 
+an increase 
+in tourist arrivals 
+of over 200% in 25 years, 
+even surpassing the increase 
+in the other countries."""
+df_commentary = pd.DataFrame([{'text' : text_comm}])
+
+commentary = alt.Chart(df_commentary
+).mark_text(
+    lineBreak='\n',
+    align='left',
+    fontSize=20,
+    y=0,
+    x=0,
+    color='#81c01e'
+).encode(
+    text='text:N'
+).properties(
+    width=200
+)
+
+# add an explainable chart
+df_airports = pd.read_csv('../source/airports.csv')
+
+df_airports = df_airports.melt(id_vars='Country Name', var_name='Year', value_name='Value')
+df_airports.dropna(inplace=True)
+df_airports = df_airports[df_airports['Country Name'] == 'Portugal']
+
+airports = alt.Chart(df_airports).mark_line(
+    color='#81c01e',
+    strokeWidth=6
+).encode(
+    x=alt.X('Year', axis=alt.Axis(labels=False, ticks=False, grid=False), title='Year range: 1994-2018'),
+    y=alt.Y('Value', axis=alt.Axis(labels=False, ticks=False, grid=False), title='Air Passengers range: 4.3M-17.3M')
+).properties(
+    title='Air passengers in Portugal',
+    width=200,
+    height=200
+)
+
+# add wisdom (next steps)
+text_cta = f"""Since the number of tourists arriving in Portugal is constantly expanding, 
+you can think about building a new swimming pool!"""
+df_cta = pd.DataFrame([{'text' : text_cta}])
+
+cta = alt.Chart(df_cta
+).mark_text(
+    lineBreak='\n',
+    align='left',
+    fontSize=20,
+    y=0,
+    x=0,
+    color='#81c01e'
+).encode(
+    text='text:N'
+).properties(
+    width=200
+)
+
+
+chart = ((commentary & airports) | ((chart + annotation) & cta)
 )
 
 chart.save('chart.html')
