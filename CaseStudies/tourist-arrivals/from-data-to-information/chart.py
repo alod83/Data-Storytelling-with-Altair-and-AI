@@ -7,12 +7,11 @@ df = pd.melt(df, id_vars='Date', value_name='Tourist Arrivals', var_name='Countr
 
 # extract year from date
 df.loc[:, 'Year'] = df['Date'].dt.year
+# filter out years before 1994 and after 2018
+df = df[(df['Year'] >= 1994) & (df['Year'] <= 2018)]
 
 # group by year and country
 df = df.groupby(['Year', 'Country'])['Tourist Arrivals'].sum().reset_index()
-
-# filter out years before 1994 and after 2018
-df = df[(df['Year'] >= 1994) & (df['Year'] <= 2018)]
 
 # add a new column containing the difference for each country between the number of tourist arrivals in the year and 1994
 for country in df['Country'].unique():
