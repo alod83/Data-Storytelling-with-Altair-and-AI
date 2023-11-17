@@ -1,0 +1,71 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "A basic example in Vega",
+  "width": 600,
+  "height": 400,
+  
+  "data": [
+    {
+      "name": "myData",
+      "values": [
+        {"x": 10, "y": 20},
+        {"x": 40, "y": 60},
+        {"x": 70, "y": 40},
+        {"x": 90, "y": 80},
+      ]
+    }
+  ],
+  
+  "scales": [
+    {
+      "name": "xScale",
+      "type": "linear",
+      "domain": {"data": "myData", "field": "x"},
+      "range": "width"
+    },
+    {
+      "name": "yScale",
+      "type": "linear",
+      "domain": {"data": "myData", "field": "y"},
+      "range": "height"
+    }
+  ],
+  
+  "axes": [
+    {"orient": "bottom", "scale": "xScale"},
+    {"orient": "left", "scale": "yScale"}
+  ],
+  
+  "marks": [
+    {
+      "type": "line",
+      "from": {"data": "myData"},
+      "encode": {
+        "enter": {
+          "x": {"scale": "xScale", "field": "x"},
+          "y": {"scale": "yScale", "field": "y"},
+          "stroke": {"value": "steelblue"},
+          "strokeWidth": {"value": 2},
+          "cursor": {"value": "pointer"}
+        },
+        "update": {
+          "stroke": {
+              "signal": "changeColor === datum ? 'red' : 'blue'" 
+              }
+          }
+        }
+      }
+    
+  ],
+  
+  "signals": [
+        {
+          "name": "changeColor",
+          "on": [
+            {"events": "mouseover", "update": "datum"},
+            {"events": "mouseout", "update": "null"}
+          ]
+        }
+      ]
+}
+
