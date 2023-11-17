@@ -1,0 +1,51 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A basic example in Vega-Lite",
+    "width": 600,
+    "height": 400,
+    "data": {
+      "values": [
+        {"x": 10, "y": 20},
+        {"x": 40, "y": 60},
+        {"x": 70, "y": 40},
+        {"x": 90, "y": 80}
+      ]
+    },
+  
+    "params": [
+      {
+        "name": "changeColor",
+        "select": {"type": "point", "on": "mouseover"}
+      },
+      {
+        "name" : "default",
+        "select": {"type": "point", "on": "mouseout"}
+  
+      }
+    ],
+    
+    
+    "mark": {"type": "line"},
+    "encoding": {
+        "x": {"field": "x", "type": "quantitative"},
+        "y": {"field": "y", "type": "quantitative"},
+        "stroke": {
+            "condition": [
+            {
+                "param": "changeColor",
+                "empty": false,
+                "value": "red"
+            },
+            {
+                "param": "default",
+                "empty": false,
+                "value": "blue"
+            }
+            ],
+            "value" : "blue"
+        }
+    }
+  
+     
+  }
+  
