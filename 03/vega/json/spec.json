@@ -8,7 +8,7 @@
   "data": [
     {
       "name": "mydata",
-      "url": "https://raw.githubusercontent.com/alod83/Data-Storytelling-with-Python-Altair-and-GitHub-Copilot/main/03/data/data.csv", "format": {"type": "csv"}
+      "url": "https://raw.githubusercontent.com/alod83/AI-Powered-Data-Storytelling-in-Python-with-Altair/main/03/data/data.csv", "format": {"type": "csv"}
     }
   ],
 
