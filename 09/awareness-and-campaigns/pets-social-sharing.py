@@ -95,84 +95,36 @@ img = alt.Chart(df_img).mark_image(
 
 # Next Steps
 
-width = 10
-space = 5
-N = 3
+# add the following logos to the chart:
+# - the Facebook logo (https://www.facebook.com/images/fb_icon_325x325.png)
+# - the Instagram logo (https://cdn3.iconfinder.com/data/icons/capsocial-round/500/instagram-512.png)
+df_logos = pd.DataFrame({
+    'x': [0, 1],
+    'img': ['https://www.facebook.com/images/fb_icon_325x325.png',
+            'https://cdn3.iconfinder.com/data/icons/capsocial-round/500/instagram-512.png'],
+    # modify here with a specific page
+    'url': ['https://www.facebook.com/',
+            'https://www.instagram.com/']    
+})
 
-x = [i*(width+space) for i in range(N)]
-y = [0 for i in range(N)]
-x2 = [(i+1)*width+i*space for i in range(N)]
-y2 = [10 for i in range(N)]
-text = ['Online Campaign', 'Influencers Engagement', 'Social Media Promotion']
-
-df_rect = pd.DataFrame(
-    {   'x': x,
-        'y': y,
-        'x2': x2,
-        'y2': y2,
-        'text' : text
-    }
-)
-
-rect = alt.Chart(df_rect).mark_rect(
-    color='#80C11E',
-    opacity=0.2
+logos = alt.Chart(df_logos).mark_image(
+    width=30,
+    height=30,
+    y=30,
+    xOffset=40
 ).encode(
     x=alt.X('x:Q', axis=None),
-    y=alt.Y('y:Q', axis=None),
-    x2='x2:Q',
-    y2='y2:Q'
+    url='img',
+    href='url'
 ).properties(
-    width=700,
-    height=100,
+    width=50,
     title=alt.TitleParams(
-        text=['What can we do next?'],
-        fontSize=20,
-        offset=10
+        text=['Share on social media'],
+        fontSize=14
     )
 )
 
-text = alt.Chart(df_rect).mark_text(
-    fontSize=14,
-    align='left',
-    dx=10,
-).encode(
-    text='text:N',
-    x=alt.X('x:Q', axis=None),
-    y=alt.Y('y_half:Q', axis=None),
-).transform_calculate(
-    y_half='datum.y2/2'
-)
-
-# add lines connecting the rectangles
-#x = [10,25]
-x = [width*i+space*(i-1) for i in range(1,N)]
-y = [5 for i in range(N-1)]
-y2 = [5 for i in range(N-1)]
-#x2 = [15,30]
-x2 = [(width+space)*i for i in range(1,N)]
-
-df_line = pd.DataFrame(
-    {   'x': x,
-        'y': y,
-        'x2': x2,
-        'y2': y2
-    }
-)
-
-line = alt.Chart(df_line).mark_line(
-    point=True,
-    strokeWidth=2
-).encode(
-    x=alt.X('x:Q', axis=None),
-    y=alt.Y('y:Q', axis=None),
-    x2='x2:Q',
-    y2='y2:Q'
-)
-
-
-
-chart = ((context | (chart + annotation + img)) & (rect + line + text)
+chart = ((context | (chart + annotation + img) & logos)
 ).configure_view(
     strokeWidth=0
 ).resolve_scale(
@@ -183,4 +135,4 @@ chart = ((context | (chart + annotation + img)) & (rect + line + text)
     grid=False
 )
 
-chart.save('pets-visualized-roadmap.html')
+chart.save('pets-social-sharing.html')
