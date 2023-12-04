@@ -12,7 +12,7 @@ chart = alt.Chart(df).mark_bar(
             # Rotate the labels by 0 degrees
             axis=alt.Axis(title=None, labels=False)
     ),
-    y=alt.Y('Number of Likes',axis=None),
+    y=alt.Y('Number of Likes',axis=alt.Axis(grid=False)),
     column=alt.Column('Meal Type',
                       header=alt.Header(
                           labelOrient='bottom',

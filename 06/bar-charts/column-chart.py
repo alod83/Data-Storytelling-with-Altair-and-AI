@@ -19,7 +19,7 @@ chart = alt.Chart(df).mark_bar(
             # Rotate the labels by 0 degrees
             axis=alt.Axis(labelAngle=0,title=None),
     ),
-    y=alt.Y('Number of Likes',axis=None)
+    y=alt.Y('Number of Likes', axis=alt.Axis(grid=False))
 ).properties(
     width=600,
     height=300
