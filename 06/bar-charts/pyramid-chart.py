@@ -51,7 +51,8 @@ middle = alt.Chart(df
     color='#000000'
 ).properties(
     width=80,
-    height=300
+    height=300,
+    title='Number of orders in 2023'
 )
 
 right_base =  alt.Chart(df
