@@ -185,26 +185,38 @@ chart = chart.properties(width=500,title=alt.TitleParams(
 df_cta = pd.read_csv('source/articles.csv')
 df_cta['Macro Category'] = df_cta['Category'].apply(lambda x: 'Material Life' if x in material_life else ('Moral Life' if x in moral_life else 'Spiritual Life'))
 
-cta = alt.Chart(df_cta).mark_text(
+
+
+base_cta = alt.Chart(df_cta).mark_text(
     fontSize=20,
     align='left',
 ).encode(
-    text=alt.Text('label:N'),
     color=color
 ).transform_filter(
     click
-).transform_calculate(
-    label=alt.datum.Title + ":" + alt.datum.Headline
+)
+
+title_cta = base_cta.encode(
+    text='Label:N',
 ).properties(
     title=alt.TitleParams(
-        text='Click on a bar to read a sample article',
+        text=['Click on a category bar to read a sample title', 'and headline of a fake article for that category'],
         fontSize=25,
         offset=20,
+        anchor='start'
     )
+).transform_calculate(
+    Label= 'Title: ' + alt.datum.Title
+)
+
+headline_cta = base_cta.encode(
+    text='Label:N'
+).transform_calculate(
+    Label= 'Headline: ' + alt.datum.Headline
 )
 
 
-chart = (chart & cta).configure_axis(
+chart = (chart & (title_cta & headline_cta)).configure_axis(
     grid=False
 ).configure_view(
     strokeWidth=0
