@@ -19,8 +19,8 @@ line = alt.Chart(df).mark_line().encode(
 # * The category column as the x-axis 
 # * The value column as the y-axis
 # * The country column as the color. Set the color to:
-#   - 'red' for 'IT'
-#   - 'green' for 'FR'
+#   - 'red' for 'Italy'
+#   - 'green' for the other countries
 
 df3 = pd.read_csv('../data/data3.csv')
 
@@ -28,7 +28,7 @@ bar = alt.Chart(df3).mark_bar().encode(
     x='category',
     y='value',
     color=alt.condition(
-        alt.datum.country == 'IT',
+        alt.datum.country == 'Italy',
         alt.value('red'),
         alt.value('green')
     ),
