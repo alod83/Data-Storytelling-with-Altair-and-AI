@@ -51,13 +51,13 @@ chart = chart + alt.Chart(pd.DataFrame({'y': [50]})
                         )
 
 # Add a new column to df called 'url' with the following value:
-# * 'https://raw.githubusercontent.com/alod83/Data-Storytelling-with-Python-Altair-and-Generative-AI/eb16ac4564513ccfb8123ccde1926fbc88994ac6/04/case-study/images/cycling.png' for Training Type = 'Cycling'
-# * 'https://raw.githubusercontent.com/alod83/Data-Storytelling-with-Python-Altair-and-Generative-AI/eb16ac4564513ccfb8123ccde1926fbc88994ac6/04/case-study/images/rowing.png' for Training Type = 'Rowing'
+# * 'https://github.com/alod83/AI-Powered-Data-Storytelling-in-Python-with-Altair/blob/b06e0f2ccba5833b14effa68c924ae3b54eb4040/CaseStudies/competitions/images/cycling.png' for Training Type = 'Cycling'
+# * 'https://github.com/alod83/AI-Powered-Data-Storytelling-in-Python-with-Altair/blob/b06e0f2ccba5833b14effa68c924ae3b54eb4040/CaseStudies/competitions/images/rowing.png' for Training Type = 'Rowing'
 # * '' for all other Training Types
 
 df['url'] = ''
-df.loc[df['Training Type'] == 'Cycling', 'url'] = 'https://raw.githubusercontent.com/alod83/Data-Storytelling-with-Python-Altair-and-Generative-AI/eb16ac4564513ccfb8123ccde1926fbc88994ac6/04/case-study/images/cycling.png'
-df.loc[df['Training Type'] == 'Rowing', 'url'] = 'https://raw.githubusercontent.com/alod83/Data-Storytelling-with-Python-Altair-and-Generative-AI/eb16ac4564513ccfb8123ccde1926fbc88994ac6/04/case-study/images/rowing.png'
+df.loc[df['Training Type'] == 'Cycling', 'url'] = 'https://github.com/alod83/AI-Powered-Data-Storytelling-in-Python-with-Altair/blob/b06e0f2ccba5833b14effa68c924ae3b54eb4040/CaseStudies/competitions/images/cycling.png'
+df.loc[df['Training Type'] == 'Rowing', 'url'] = 'https://github.com/alod83/AI-Powered-Data-Storytelling-in-Python-with-Altair/blob/b06e0f2ccba5833b14effa68c924ae3b54eb4040/CaseStudies/competitions/images/rowing.png'
 
 # Add the following image to the chart:
 # * The image is a 35x35 pixel image
