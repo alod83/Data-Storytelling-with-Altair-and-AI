@@ -1,5 +1,5 @@
 # Import the required libraries
-# Load the file '../data/data.csv' into a pandas DataFrame
+# Load the file 'data/data.csv' into a pandas DataFrame
 # Draw a line chart named line in Altair with:
 # * The X column as the x-axis
 # * The Y column as the y-axis
@@ -7,14 +7,14 @@
 import pandas as pd
 import altair as alt
 
-df = pd.read_csv('../data/data.csv')
+df = pd.read_csv('data/data.csv')
 
 line = alt.Chart(df).mark_line().encode(
     x='X',
     y='Y'
 )
 
-# Load the file '../data/data3.csv' into a pandas DataFrame
+# Load the file 'data/data3.csv' into a pandas DataFrame
 # Draw a bar chart named bar in Altair with:
 # * The category column as the x-axis 
 # * The value column as the y-axis
@@ -22,7 +22,7 @@ line = alt.Chart(df).mark_line().encode(
 #   - 'red' for 'Italy'
 #   - 'green' for the other countries
 
-df3 = pd.read_csv('../data/data3.csv')
+df3 = pd.read_csv('data/data3.csv')
 
 bar = alt.Chart(df3).mark_bar().encode(
     x='category',
