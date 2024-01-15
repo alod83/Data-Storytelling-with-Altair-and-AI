@@ -106,7 +106,7 @@ cta = base_cta.mark_bar(
     stroke='white'
 ).encode(
     color=alt.Color('Factor', 
-                    scale=alt.Scale(range=['lightgrey', '#80C11E', 'lightgrey', 'lightgrey'], domain=['physical', 'technical', 'taktical', 'psycol.']
+                    scale=alt.Scale(range=['lightgrey', '#80C11E', 'lightgrey', 'lightgrey'], domain=['physical', 'technical', 'tactical', 'psycol.']
                     ),
                     legend=None),
 )
