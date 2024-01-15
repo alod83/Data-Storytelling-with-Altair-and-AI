@@ -17,7 +17,6 @@ chart = alt.Chart(df).mark_bar(
             axis=alt.Axis(labelFontSize=14)
             ),
     x=alt.X('Percentage of Fake Articles:Q',
-            title=None,
             axis=alt.Axis(labelFontSize=14, titleFontSize=14)
             )
 ).properties(

@@ -25,7 +25,7 @@ chart = alt.Chart(df_tot).mark_bar().encode(
               sort='-x', 
               axis=alt.Axis(title='')),
     x = alt.X('Ratio', 
-              axis=alt.Axis(tickCount=4,title='')),
+              axis=alt.Axis(tickCount=4,title='Number of Inhabitants per 1,000')),
     color=alt.condition(alt.datum.Ratio > 2, 
                         alt.value('#80C11E'), 
                         alt.value('lightgray'))
@@ -37,9 +37,14 @@ chart = alt.Chart(df_tot).mark_bar().encode(
 
 # Add context
 chart = chart.properties(width=500,title=alt.TitleParams(
-    text=["Together, Let's Make a Difference:","Support Our Project to Help the Homeless!"],
-    subtitle=['Homelessness is a heartbreaking reality that leaves individuals and families without a stable home,','leading to devastating consequences such as poor health and social isolation.'],
+    text=["Together, Let's Make a Difference: Support Our Project to Help the Homeless!"],
+    subtitle=['Homelessness is a heartbreaking reality that leaves individuals and families without a stable home,',
+    'leading to devastating consequences such as poor health and social isolation.',
+    'The chart describes the number of homeless people in Italy per 1,000 inhabitants, organized by region. ',
+    'The data is from 2021, the most recent year available (Source: ISTAT).'],
     subtitleFontSize=18,
+    align='left',
+    anchor='start',
 ))
 
 # Create an Altair chart with an image mark

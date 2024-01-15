@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.16.3"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300, "strokeWidth": 0}, "axis": {"grid": false}}, "data": {"name": "data-ef0a9beb96b6f5ce48955eb446b97c42"}, "mark": {"type": "bar", "color": "#81c01e"}, "encoding": {"x": {"axis": {"labelFontSize": 14, "titleFontSize": 14}, "field": "Percentage of Fake Articles", "type": "quantitative"}, "y": {"axis": {"labelFontSize": 14}, "field": "Category", "sort": "x", "title": null, "type": "nominal"}}, "height": 400, "transform": [{"calculate": "((datum['Number of Fake Articles'] / datum['Number of Articles']) * 100)", "as": "Percentage of Fake Articles"}], "width": 400, "$schema": "https://vega.github.io/schema/vega-lite/v5.16.3.json", "datasets": {"data-ef0a9beb96b6f5ce48955eb446b97c42": [{"Category": "Politics", "Number of Fake Articles": 1235, "Number of Articles": 1300}, {"Category": "Economy", "Number of Fake Articles": 1456, "Number of Articles": 1678}, {"Category": "Justice", "Number of Fake Articles": 300, "Number of Articles": 570}, {"Category": "Religion", "Number of Fake Articles": 30, "Number of Articles": 100}, {"Category": "Technology", "Number of Fake Articles": 2345, "Number of Articles": 2567}, {"Category": "Environment", "Number of Fake Articles": 1200, "Number of Articles": 1350}, {"Category": "Health", "Number of Fake Articles": 2300, "Number of Articles": 2600}, {"Category": "Science", "Number of Fake Articles": 3044, "Number of Articles": 3500}, {"Category": "Education", "Number of Fake Articles": 1235, "Number of Articles": 1290}, {"Category": "Business", "Number of Fake Articles": 2345, "Number of Articles": 3000}, {"Category": "Lifestyle", "Number of Fake Articles": 3212, "Number of Articles": 3500}, {"Category": "Travel", "Number of Fake Articles": 2312, "Number of Articles": 2700}, {"Category": "Social Issues", "Number of Fake Articles": 456, "Number of Articles": 1000}, {"Category": "Ethics", "Number of Fake Articles": 987, "Number of Articles": 2300}, {"Category": "Human Rights", "Number of Fake Articles": 567, "Number of Articles": 980}, {"Category": "Philanthropy", "Number of Fake Articles": 456, "Number of Articles": 800}, {"Category": "Diversity & Inclusion", "Number of Fake Articles": 321, "Number of Articles": 654}, {"Category": "Relationships", "Number of Fake Articles": 456, "Number of Articles": 900}, {"Category": "Culture & Arts", "Number of Fake Articles": 786, "Number of Articles": 1400}, {"Category": "Media & Entertainment", "Number of Fake Articles": 754, "Number of Articles": 1554}, {"Category": "Spirituality & Faith", "Number of Fake Articles": 23, "Number of Articles": 100}, {"Category": "Wellness & Mindfulness", "Number of Fake Articles": 21, "Number of Articles": 99}, {"Category": "Personal Growth", "Number of Fake Articles": 45, "Number of Articles": 140}, {"Category": "Mysticism", "Number of Fake Articles": 67, "Number of Articles": 157}, {"Category": "Belief Systems", "Number of Fake Articles": 43, "Number of Articles": 154}, {"Category": "Sport", "Number of Fake Articles": 2321, "Number of Articles": 2900}, {"Category": "Philosophy", "Number of Fake Articles": 23, "Number of Articles": 200}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
