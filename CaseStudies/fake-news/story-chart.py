@@ -58,7 +58,6 @@ chart = alt.Chart(df).mark_bar(
             axis=alt.Axis(labelFontSize=14)
             ),
     x=alt.X('Percentage of Fake Articles:Q',
-            title=None,
             axis=alt.Axis(labelFontSize=14, 
                           titleFontSize=14),
     ),
@@ -156,6 +155,7 @@ material_text = alt.Chart(
     y=alt.value(300),
     text='text'
 )
+
 
 chart = chart + spiritual_image  + spiritual_text + moral_image + moral_text + material_image + material_text
 
