@@ -4,7 +4,7 @@
 
 This is the code repository for [Data Storytelling with Generative AI: Using Python and Altair](https://www.manning.com/books/data-storytelling-with-generative-ai), published by Manning Publications.
 
-## Part 1:  Introductory Chapters 
+## Part 1:  Introducing the application of Altair and generative AI to data storytelling
 
 1. [Introducing Data Storytelling](01) 
 
@@ -14,7 +14,7 @@ This is the code repository for [Data Storytelling with Generative AI: Using Pyt
 
 4. [Generative AI Tools for Data Storytelling](04)
 
-## Part 2:  Core chapters
+## Part 2:  Using the DIKW pyramid for data storytelling
 
 5. [Crafting a data story through the DIKW Pyramid](05)
 
@@ -26,14 +26,20 @@ This is the code repository for [Data Storytelling with Generative AI: Using Pyt
 
 9. [From Knowledge to Wisdom: adding next steps](09)
 
-## Part 3:  Next
+## Part 3:  Deliver the data story
 
-10. Building the final data story
+10. [Ethical Reflections](10)
+
+11. [Building the final data story](11)
 
 ## APPENDIXES 
 
 A. Technical Requirements
 
-B. Python Pandas DataFrame
+B. [Python Pandas DataFrame](AppendixB)
+
+[Case Studies](CaseStudies)
+
+
 
 
