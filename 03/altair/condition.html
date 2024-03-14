@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.8.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "data": {"name": "data-679b3cb888c979e4923127b2d96de8f9"}, "mark": {"type": "bar"}, "encoding": {"color": {"condition": {"test": "(datum.Region === 'Europe')", "value": "red"}, "value": "blue"}, "x": {"field": "Medals", "type": "quantitative"}, "y": {"field": "Country", "type": "nominal"}}, "$schema": "https://vega.github.io/schema/vega-lite/v5.8.0.json", "datasets": {"data-679b3cb888c979e4923127b2d96de8f9": [{"Country": "Japan", "Medals": 4, "Region": "Asia"}, {"Country": "USA", "Medals": 6, "Region": "Americas"}, {"Country": "Germany", "Medals": 10, "Region": "Europe"}, {"Country": "Spain", "Medals": 3, "Region": "Europe"}, {"Country": "France", "Medals": 7, "Region": "Europe"}, {"Country": "Italy", "Medals": 8, "Region": "Europe"}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
