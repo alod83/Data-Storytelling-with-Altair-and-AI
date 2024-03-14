@@ -112,7 +112,7 @@ cta = alt.Chart(df_cta
 )
 
 
-chart = ((commentary & airports) | ((chart + annotation) & cta)
+final_chart = ((commentary & airports) | ((chart + annotation) & cta)
 )
 
-chart.save('chart.html')
+final_chart.save('chart.html')
