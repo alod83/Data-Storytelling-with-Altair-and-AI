@@ -5,13 +5,13 @@
 # pip install pydantic==1.10.11
 # pip install chromadb
 # pip install tiktoken
-from langchain.document_loaders import UnstructuredHTMLLoader
+from langchain_community.document_loaders.html import UnstructuredHTMLLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.vectorstores import Chroma
-from langchain.embeddings import OpenAIEmbeddings
+from langchain_community.vectorstores import Chroma
+from langchain_openai import OpenAIEmbeddings
 from langchain.chains import RetrievalQA
 from langchain.prompts import PromptTemplate
-from langchain.chat_models import ChatOpenAI
+from langchain_openai import ChatOpenAI
 
 # download the following HTML page:
 # https://www.fda.gov/food/seafood-guidance-documents-regulatory-information/aquacultured-seafood
@@ -70,5 +70,5 @@ qa = RetrievalQA.from_chain_type(
 )
 
 print(
-    qa('Describe Safety of Aquaculture Seafood in the U.S.')
+    qa.invoke('Describe Safety of Aquaculture Seafood in the U.S.')
 )
