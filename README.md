@@ -4,6 +4,10 @@
 
 This is the code repository for [Data Storytelling with Generative AI: Using Python and Altair](https://www.manning.com/books/data-storytelling-with-generative-ai), published by Manning Publications.
 
+Install required packages using the following command:
+
+`pip install -r requirements.txt`
+
 ## Part 1:  Introducing the application of Altair and generative AI to data storytelling
 
 1. [Introducing Data Storytelling](01) 
@@ -34,7 +38,7 @@ This is the code repository for [Data Storytelling with Generative AI: Using Pyt
 
 ## APPENDIXES 
 
-A. Technical Requirements
+A. [Technical Requirements](AppendixA)
 
 B. [Python Pandas DataFrame](AppendixB)
 
