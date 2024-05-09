@@ -1,12 +1,12 @@
 import openai
-openai.api_key = 'MY API KEY'
+openai.api_key = 'MY_API_KEY'
 prompt = 'What is the capital of Italy?'
  
 messages = [{"role": "user", "content": prompt}]
-response = openai.ChatCompletion.create(
+response = openai.chat.completions.create(
     model="gpt-3.5-turbo",
     messages=messages,
     temperature=0,
 )
-output = response.choices[0].message["content"]
-print(output)
+
+print(response.choices[0].message.content.strip())
