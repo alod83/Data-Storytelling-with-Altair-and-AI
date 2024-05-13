@@ -10,5 +10,6 @@ ydata-profiling==4.6.0
 matplotlib==3.5.0
 numpy==1.24.4
 pandas==1.3.4
+unstructured=0.10.19
 
 
