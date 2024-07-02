@@ -32,7 +32,7 @@ Install required packages using the following command:
 
 ## Part 3:  Deliver the data story
 
-10. [Ethical Reflections](10)
+10. [Common issues while using Generative AI](10)
 
 11. [Building the final data story](11)
 
