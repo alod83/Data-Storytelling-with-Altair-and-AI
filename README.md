@@ -1,8 +1,7 @@
-# Data Storytelling with Generative AI: Using Python and Altair
-
+# Data Storytelling with Altair and AI
 <a href="https://www.manning.com/books/data-storytelling-with-generative-ai"><img src="https://images.manning.com/360/480/resize/book/b/f44903e-bba6-43ee-8362-ac3980bd8faa/LoDuca-MEAP-HI.png" alt="Data Storytelling with Generative AI: Using Python and Altair" height="256px" align="right"></a>
 
-This is the code repository for [Data Storytelling with Generative AI: Using Python and Altair](https://www.manning.com/books/data-storytelling-with-generative-ai), published by Manning Publications.
+This is the code repository for [Data Storytelling with Altair and AI](https://www.manning.com/books/data-storytelling-with-generative-ai), published by Manning Publications.
 
 Install required packages using the following command:
 
