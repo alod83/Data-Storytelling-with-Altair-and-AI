@@ -1,5 +1,5 @@
 # Data Storytelling with Altair and AI
-<a href="https://www.manning.com/books/data-storytelling-with-generative-ai"><img src="https://images.manning.com/360/480/resize/book/b/f44903e-bba6-43ee-8362-ac3980bd8faa/LoDuca-MEAP-HI.png" alt="Data Storytelling with Generative AI: Using Python and Altair" height="256px" align="right"></a>
+<a href="https://www.manning.com/books/data-storytelling-with-generative-ai"><img src="https://images.manning.com/360/480/resize/book/d/ee8de26-d578-4aa6-8fd9-d8ab65fc77b4/LoDuca-HI.png" alt="Data Storytelling with Generative AI: Using Python and Altair" height="256px" align="right"></a>
 
 This is the code repository for [Data Storytelling with Altair and AI](https://www.manning.com/books/data-storytelling-with-generative-ai), published by Manning Publications.
 
